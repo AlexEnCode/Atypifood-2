@@ -1,0 +1,92 @@
+/* Ceci est le fichier CSS qui va nous servir à créer le style de nos pages web */
+
+main {
+    width: 100%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #468B97;
+    text-decoration: underline #468B97 9% 51 4px;
+    text-underline-offset: 8px;
+
+}
+
+h1 {
+    text-align: left;
+    color: #025464;
+    text-decoration: underline #025464 5% 51 2px;
+    text-underline-offset: 2px;
+
+}
+
+table {
+    border: 15px solid #025464;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: #025464;
+}
+
+footer {
+    text-align: center;
+}
+
+
+#pied1 {
+    background-color: #468B97;
+}
+
+#pied2 {
+    background-color: #025464;
+}
+
+#tableaudubas {
+    color: #ffffff;
+    border-left: 150px;
+    border-right: 150px;
+}
+a {
+    display: inline-block;
+    padding: 15px;
+    background-color: #025464;
+    color: #ffffff;
+}
+
+#commander {
+    background-color: #ffcb14;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 16px 18px;
+    margin-left: 60%;
+    margin-top: 30%;
+      
+}
+
+#plus {
+    background-color: #ffcb14;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 6px 18px;
+    
+}
+
+#moins {
+    background-color: #ffcb14;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 6px 18px;
+}
+
+#supprimer {
+    background-color: #ffcb14;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 6px 18px;
+}
+commander:hover{
+    color: #ffe791;
+}
+
+
+
