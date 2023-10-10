@@ -164,16 +164,6 @@ nav>ul li:hover .sous {
 
 
 
-main {
-    margin-top: 75px;
-    margin-bottom: 50 px;
-    border: 6px solid #025464;
-    padding: 5px 10px;
-    padding-left: 1px;
-    padding-right: 1px;
-    border-radius: 10%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 h1,
 h3 {
