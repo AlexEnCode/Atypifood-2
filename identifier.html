@@ -1,42 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head> <!-- partie invisible -->
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire d'inscription'</title>
-    <link rel="stylesheet" href="page identification.css">
+    <link rel="stylesheet" href="connectionidentification.css">
 
 
 
-
-    <form action="Le tableau.html" method="get">
-        <style>
-            main {
-                width: 30%;
-                margin-top: 75px;
-                margin-bottom: 50 px;
-                border: 8px solid #025464;
-                padding: 20px 10px;
-                padding-left: 1px;
-                padding-right: 1px;
-                border-radius: 10%;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            }
-
-            h1,
-            h3 {
-                text-align: center;
-            }
-
-            label,
-            input,
-            select {
-                margin-bottom: 15px;
-            }
-        </style>
 </head>
+
+
+<header>
+    <form action="Le tableau.html" method="get"> 
+        <section id="entete">
+            <button> <img src="Logo/logo fond blanc.png" alt="ATYPIFOOD" id="logofondblanc"></button>
+        </section>
+        <br>
+        <section id="boutonentete">
+
+            <span>
+                <button> <img src="logo/profil.png" alt="" id="profil"></button>
+            </span>
+
+            <span id="recherche">
+                <form id="barrecherche">
+                    <div> <input id=recherche2 type="text" name="text" class="search" placeholder=" "> </div>
+                    <div> <button id="boutonrecherche"><img src="logo/loupeblanche2.png" alt=""></button> </div>
+                </form>
+            </span>
+
+            <span>
+                <button><img src="logo/panier.png" alt="" id="panier"></button>
+            </span>
+</form>
+
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li class="deroulant"><a href="#" Border>Plats</a>
+                    <ul class="sous">
+                        <li><a href="#">Plat1</a></li>
+                        <li><a href="#">plat2</a></li>
+                        <li><a href="#">Plat3</a></li>
+                        <li><a href="#">Plat4</a></li>
+                        <li><a href="#">Plat5</a></li>
+                        <li><a href="#">Plat6</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant" Border><a href="#">Desserts</a>
+                    <ul class="sous">
+                        <li><a href="#">Dessert1</a></li>
+                        <li><a href="#">Dessert2</a></li>
+                        <li><a href="#">Dessert3</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant"><a href="#" Border>Boissons</a>
+                    <ul class="sous">
+                        <li><a href="#">Boisson1</a></li>
+                        <li><a href="#">Boisson2</a></li>
+                        <li><a href="#">Boisson3</a></li>
+                        <li><a href="#">Boisson4</a></li>
+                        <li><a href="#">Boisson5</a></li>
+                        <li><a href="#">Boisson6</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">A propos</a></li>
+            </ul>
+        </nav>
+        </section>
+</header>
+
+
+
 
 <body>
     <main>
@@ -78,17 +117,32 @@
                 <input type="radio" name="accepte"> J'accepte
                 <input type="radio" name="accepte"> Je refuse
             </label>
-            <br><br><br>
+            <br><br>
             <label id="se-connecter" for="submit">
-                <input type="submit" value="Se connecter">
+                <input type="submit" value="Créer son compte">
             </label>
-            <br><br> <br>
+
+
             <br>
             </label>
         </form>
+        <img src="logo/logo fond blanc.png" alt="ATYPIFOOD" id="logofondblancpetit">
 
     </main>
     <br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <footer>
 
         <section id="pied1">
@@ -97,9 +151,9 @@
                 <div>
                     Que pensent nos clients de Atypifood?
                 </div>
-                <div> <img src="etoile.png" alt="" id="avisetoile"><img src="etoile.png" alt="" id="avisetoile"><img
-                        src="etoile.png" alt="" id="avisetoile"><img src="etoile.png" alt="" id="avisetoile"><img
-                        src="etoile.png" alt="" id="avisetoile">
+                <div> <img src="logo/etoile.png" alt="" id="avisetoile"><img src="logo/etoile.png" alt="" id="avisetoile"><img
+                        src="logo/etoile.png" alt="" id="avisetoile"><img src="logo/etoile.png" alt="" id="avisetoile"><img
+                        src="logo/etoile.png" alt="" id="avisetoile">
                 </div>
             </section>
             <section id="avis">
@@ -113,7 +167,7 @@
                 <span>
                     <section id="boutonnewsletter">
                         <section>
-                            <img src="enveloppe.png" id="enveloppe">
+                            <img src="logo/enveloppe.png" id="enveloppe">
                         </section>
                         <button id="abonnez"><span>Abonnez vous à notre newsletter !</span></button>
                     </section>
@@ -126,14 +180,17 @@
 
 
             <div>
-                <h4>Atipyfood</h4>
-                <ul>
-                    <li>Qui sommes nous?</li>
-                    <li>Les restaurants</li>
-                    <li>Rejoignez-nous</li>
-                    <li>Recrutement</li>
-                    <li>Parrainage</li>
+                <section>
+                    <h4>Atipyfood</h4>
+                    <ul>
+                        <li>Qui sommes nous?</li>
+                        <li>Les restaurants</li>
+                        <li>Rejoignez-nous</li>
+                        <li>Recrutement</li>
+                        <br>
+                </section>
                 </ul>
+                <section>atypifood@gmail.com <br> </section>
             </div>
 
             <div>
@@ -167,9 +224,9 @@
                 </section>
                 <br>
                 <section id="reseauxsociaux">
-                    <a href="https://www.facebook.com"><img id="facebook" src="icons8-facebook-100.png" alt=""></a>
-                    <a href="https://instagram.com"><img id="facebook" src="icons8-instagram-100.png" alt=""></a>
-                    <a href="https://www.tiktok.com"><img id="facebook" src="icons8-tic-tac-100.png" alt=""> </a>
+                    <a href="https://www.facebook.com"><img id="facebook" src="logo/icons8-facebook-100.png" alt=""></a>
+                    <a href="https://instagram.com"><img id="facebook" src="logo/icons8-instagram-100.png" alt=""></a>
+                    <a href="https://www.tiktok.com"><img id="facebook" src="logo/icons8-tic-tac-100.png" alt=""> </a>
                 </section>
             </div>
         </section>
@@ -177,7 +234,7 @@
             <div> <br>Pour votre santé, ne grignotez pas entre les repas <br> <a
                     href="https://www.mangerbouger.fr">www.mangerbouger.fr</div></a>
             <div></div>
-            <div id="Marianne"><img src="footer_gabarit.webp" alt="mange et bouge"></div>
+            <div id="Marianne"><img src="logo/footer_gabarit.webp" alt="mange et bouge"></div>
         </section>
     </footer>
 

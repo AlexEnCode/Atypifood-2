@@ -1,3 +1,182 @@
+head {
+    color: #d8b4b4;
+}
+
+a {
+    text-decoration: none;
+    color: none
+}
+
+a,
+button {
+    cursor: pointer;
+    cursor: url(curseur.png), pointer; 
+     background: none;
+    border: none;
+}
+
+#entete {
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+#boutonentete {
+    display: flex;
+    justify-content: space-around;
+    bottom: 100%;
+    
+}
+
+#logofondblanc {
+    width: 900px;
+    text-align: center;
+}
+
+#profil {
+position: flex;
+    width: 68px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+
+#panier {
+    position: flex;
+    width: 60px;
+    margin-top: 0px;
+
+}
+
+#recherche {
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}
+
+#recherche2 {
+    display: block;
+    background-color: white;
+    border: #E8AA42 solid 4px;
+    border-radius: 10px 0px 0px 10px;
+    width: 494px;
+    height: 40px;
+}
+
+#boutonrecherche {
+    display: flex;
+    position: static;
+    float: none;
+    background: none;
+    border: none;
+    padding-top: 5px;
+    background-color: #E8AA42;
+    border: #E8AA42 solid 4px;
+    border-radius: 0px 10px 10px 0px;
+    height: 50px;
+}
+
+
+nav {
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    background-color: #025464;
+}
+
+
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover {
+    color: #468b97;
+    border-bottom: 2px solid #025464;
+}
+
+.sous {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+nav>ul li:hover .sous {
+    display: block;
+}
+
+.sous li {
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous a:hover {
+    border-bottom: 5;
+    background-color: #025464;
+}
+
+.deroulant>a::after {
+    font-size: 12px;
+
+}
+
+.conteneur {
+    margin: 50px 20px;
+    height: 1500px;
+}
+
+
+
+
+
+
+h1,
+h3 {
+    text-align: center;
+}
+
+label,
+input,
+select {
+    margin-bottom: 15px;
+}
+
+
 
 input[type='radio']:checked:after {
     width: 10px;
@@ -14,13 +193,14 @@ input[type='radio']:checked:after {
 }
 
 main {
-    width: 50%;
+    width: 30%;
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: #468B97;
-    text-decoration: underline #468B97 9% 51 4px;
+    text-decoration: underline #468B97 9% 51 8px;
     text-underline-offset: 8px;
+    margin-top: 100px;
 }
 
 h1 {
@@ -28,6 +208,8 @@ h1 {
     color: #025464;
     text-decoration: underline #025464 9% 51 4px;
     text-underline-offset: 8px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 img {
@@ -36,9 +218,14 @@ img {
 }
 
 #se-connecter input {
+    width: 100px;
     background-color: #E8AA42;
     color: #025464;
     border: 2px solid #025464;
+    border-radius:10px;
+    height: 35px;
+    width: 200px;
+    font-size: 18px;
 }
 
 table {
@@ -48,6 +235,11 @@ table {
     width: 100%;
     margin-bottom: 50px;
     background-color: #025464;
+}
+
+#logofondblancpetit {
+    width: 30%;
+    padding: 20px;
 }
 
 #pied1 {
@@ -69,8 +261,8 @@ table {
     height: 50px;
 }
 
-#avisetoile:hover{
-background-image:url(etoile2.png);
+#avisetoile:hover {
+    background-image: url(etoile2.png);
 }
 
 #avis {
@@ -88,6 +280,11 @@ background-image:url(etoile2.png);
     border-radius: 22%;
 }
 
+footer {
+background: none;
+display: block;
+}
+
 #pied2 {
     background-color: #025464;
     display: flex;
@@ -98,17 +295,18 @@ background-image:url(etoile2.png);
     color: white;
     font-size: x-large;
     font-size: large;
+    list-style-type: none;
 }
 
 #boutonnewsletter {
     display: flex;
 }
+
 #newsletter {
     display: flex;
     justify-content: center;
     text-align: center;
     vertical-align: middle;
-
 }
 
 #newsletter span {
@@ -127,12 +325,10 @@ background-image:url(etoile2.png);
     background-color: white;
 }
 
-
-
-  #abonnez span:hover {
+#abonnez span:hover {
     background-color: #025464;
     color: white
-  }
+}
 
 #boutonnewsletter span {
     display: flex;
@@ -166,21 +362,30 @@ h4 {
 }
 
 #reseauxsociaux {
+
     border: solid white;
     color: #025464;
     width: 270px;
-    height: 70px;
+    height: 64px;
     border-radius: 10px;
     top: 100px;
     left: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 #facebook {
+    display: flex;
+    bottom: 100%;
     width: 50px;
     height: 50px;
+}
+
+#reseauxsociaux :hover {
+    background-color: white;
+    border-radius: 12%;
 }
 
 #pied3 {
