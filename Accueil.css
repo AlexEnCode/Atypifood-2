@@ -162,6 +162,10 @@ nav>ul li:hover .sous {
 
 
 
+
+
+
+
 h1,
 h3 {
     text-align: center;
@@ -275,11 +279,6 @@ table {
     margin-top: 20px;
     margin-bottom: 20x;
     border-radius: 22%;
-}
-
-footer {
-background: none;
-display: block;
 }
 
 #pied2 {
