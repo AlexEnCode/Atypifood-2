@@ -167,80 +167,524 @@ h3 {
     text-align: center;
 }
 
-
-
-
-#i1{
+/* Debut cadre photo plat */
+#plat1 {
     background-color: rgb(255, 255, 255);
     border-radius: 15%;
+}
+#plat1 {
     border: 10px solid #ffcb14;
+}
+#plat1 {
     height: 225px ;
-    width: 225px;
+width: 225px;
+} 
+
+#plat2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#plat2 {
+    border: 10px solid #ffcb14;
+}
+#plat2 {
+    height: 225px ;
+width: 225px;
+} 
+
+#plat3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#plat3 {
+    border: 10px solid #ffcb14;
+}
+#plat3 {
+    height: 225px ;
+width: 225px;
+} 
+
+
+#plat4 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#plat4 {
+    border: 10px solid #ffcb14;
+}
+#plat4 {
+    height: 225px ;
+width: 225px;
+} 
+
+
+#plat5 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#plat5 {
+    border: 10px solid #ffcb14;
+}
+#plat5 {
+    height: 225px ;
+width: 225px;
+} 
+
+
+#plat6 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#plat6 {
+    border: 10px solid #ffcb14;
+}
+#plat6 {
+    height: 225px ;
+width: 225px;
+} 
+
+
+
+#plat7 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#plat7 {
+    border: 10px solid #ffcb14;
+}
+#plat7 {
+    height: 225px ;
+width: 225px;
+} 
+
+
+#plat8 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#plat8 {
+    border: 10px solid #ffcb14;
+}
+#plat8 {
+    height: 225px ;
+width: 225px;
+} 
+
+
+/* Fin cadre photo plat*/
+
+
+/* Debut cadre dessert */
+
+#desert{
+    
+    display: flex;
+
+justify-content: space-evenly;
+
+margin-top: 70px;
+
+margin-bottom: 70px;
 
 }
 
-#i2{
+#i1 {
     background-color: rgb(255, 255, 255);
     border-radius: 15%;
+    
+}
+#i1 {
     border: 10px solid #ffcb14;
+}
+#i1 {
+    height: 225px ;
+width: 225px;
+} 
 
+
+
+#i2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+    
+}
+#i2 {
+    border: 10px solid #ffcb14;
+}
+#i2 {
+    height: 225px ;
+width: 225px;
+} 
+
+
+#i3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#i3 {
+    border: 10px solid #ffcb14;
+}
+#i3 {
+    height: 225px ;
+width: 225px;
+} 
+
+
+#i4 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#i4 {
+    border: 10px solid #ffcb14;
+}
+#i4 {
+    height: 225px ;
+width: 225px;
+} 
+
+
+#desert2{
+    
+    display: flex;
+
+justify-content: space-evenly;
+
+margin-top: 70px;
+
+margin-bottom: 70px;
+
+}
+
+
+
+
+#i5 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#i5 {
+    border: 10px solid #ffcb14;
+}
+#i5 {
+    height: 225px ;
+width: 225px;
+} 
+
+
+#i6 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#i6 {
+    border: 10px solid #ffcb14;
+}
+#i6 {
     height: 225px ;
 width: 225px;
 }
 
-#i3{
+
+#i7 {
     background-color: rgb(255, 255, 255);
     border-radius: 15%;
+}
+#i7 {
     border: 10px solid #ffcb14;
+}
+#i7 {
+    height: 225px ;
+width: 225px;
+} 
 
+
+#i8 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#i8 {
+    border: 10px solid #ffcb14;
+}
+#i8 {
     height: 225px ;
 width: 225px;
 }
 
-#i4{
+
+#i9 {
     background-color: rgb(255, 255, 255);
     border-radius: 15%;
-    border: 10px solid #ffcb14;
-
-    height: 225px ;
-width: 225px;
 }
+#i9 {
+    border: 10px solid #ffcb14;
+}
+#i9 {
+    height: 275px ;
+width: 275px;
+} 
 
-#i5{
+
+/* Fin cadre dessert  */
+
+
+/* Debut cadre entree */
+
+
+#entree1 {
     background-color: rgb(255, 255, 255);
     border-radius: 15%;
-    border: 10px solid #ffcb14;
-
-    height: 225px ;
-width: 225px;
 }
+#entree1 {
+    border: 10px solid #ffcb14;
+}
+#entree1 {
+    height: 275px ;
+width: 275px;
+} 
 
-#i6{
+
+#entree2 {
     background-color: rgb(255, 255, 255);
     border-radius: 15%;
+}
+#entree2 {
     border: 10px solid #ffcb14;
-
-    height: 225px ;
-width: 225px;
+}
+#entree2 {
+    height: 275px ;
+width: 275px;
 }
 
-#i7{
+
+#entree3 {
     background-color: rgb(255, 255, 255);
     border-radius: 15%;
+}
+#entree3 {
     border: 10px solid #ffcb14;
-
-    height: 225px ;
-width: 225px;
+}
+#entree3 {
+    height: 275px ;
+width: 275px;
 }
 
-#i8{
+
+#entree4 {
     background-color: rgb(255, 255, 255);
     border-radius: 15%;
+}
+#entree4 {
     border: 10px solid #ffcb14;
-    height: 225px ;
-width: 225px;
+}
+#entree4 {
+    height: 275px ;
+width: 275px;
+}
+
+
+#entree5 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#entree5 {
+    border: 10px solid #ffcb14;
+}
+#entree5 {
+    height: 275px ;
+width: 275px;
+}
+
+
+#entree6 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#entree6 {
+    border: 10px solid #ffcb14;
+}
+#entree6 {
+    height: 275px ;
+width: 275px;
+}
+
+/* Fin cadre entree */
+
+
+/* Debut cadre boissons */
+
+
+
+#boisson1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#boisson1 {
+    border: 10px solid #ffcb14;
+}
+#boisson1 {
+    height: 275px ;
+width: 275px;
+}
+
+
+#boisson2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#boisson2 {
+    border: 10px solid #ffcb14;
+}
+#boisson2 {
+    height: 275px ;
+width: 275px;
+}
+
+
+#boisson3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#boisson3 {
+    border: 10px solid #ffcb14;
+}
+#boisson3 {
+    height: 275px ;
+width: 275px;
+}
+
+
+#boisson4 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#boisson4 {
+    border: 10px solid #ffcb14;
+}
+#boisson4 {
+    height: 275px ;
+width: 275px;
+}
+
+
+
+#boisson5 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#boisson5 {
+    border: 10px solid #ffcb14;
+}
+#boisson5 {
+    height: 275px ;
+width: 275px;
+}
+
+
+
+#boisson6 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#boisson6 {
+    border: 10px solid #ffcb14;
+}
+#boisson6 {
+    height: 275px ;
+width: 275px;
+}
+
+/* Fin boissons */
+
+
+#platA{
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 70px;
+margin-bottom: 70px;
 
 }
+
+#platB{
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 70x;
+margin-bottom: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -426,20 +870,4 @@ h4 {
 #Marianne {
     width: 400px;
     display: flex;
-}
-
-
-
-#desert{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-#desert2{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 70px;
-    margin-bottom: 70px;
 }
