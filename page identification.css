@@ -1,0 +1,194 @@
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    background-color: #E8AA42;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #025464;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #468B97;
+    text-decoration: underline #468B97 9% 51 4px;
+    text-underline-offset: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #025464;
+    text-decoration: underline #025464 9% 51 4px;
+    text-underline-offset: 8px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#se-connecter input {
+    background-color: #E8AA42;
+    color: #025464;
+    border: 2px solid #025464;
+}
+
+table {
+    border: 15px solid #025464;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: #025464;
+}
+
+#pied1 {
+    background-color: #468B97;
+}
+
+#questionpied1 {
+    color: white;
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#avisetoile {
+    width: 50px;
+    height: 50px;
+}
+
+#avisetoile:hover{
+background-image:url(etoile2.png);
+}
+
+#avis {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#avis span {
+    border: solid #025464 8px;
+    background-color: white;
+    width: 280px;
+    height: 230px;
+    margin-top: 20px;
+    margin-bottom: 20x;
+    border-radius: 22%;
+}
+
+#pied2 {
+    background-color: #025464;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: x-large;
+    font-size: large;
+}
+
+#boutonnewsletter {
+    display: flex;
+}
+#newsletter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#newsletter span {
+    border: solid #ffffff 8px;
+    background-color: white;
+    width: 900px;
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 17px;
+}
+
+#abonnez {
+    display: inline-block;
+    border: #ffffff;
+    background-color: white;
+}
+
+
+
+  #abonnez span:hover {
+    background-color: #025464;
+    color: white
+  }
+
+#boutonnewsletter span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #025464 8px;
+    background-color: white;
+    width: 750px;
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    border-radius: 17px;
+    color: #025464;
+    font-size: 35px;
+}
+
+#enveloppe {
+    margin-top: 7px;
+    margin-left: 15px;
+    margin-right: -5px;
+    width: 80px;
+    height: 70px;
+}
+
+h4 {
+    text-align: center;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+}
+
+#reseauxsociaux {
+    border: solid white;
+    color: #025464;
+    width: 270px;
+    height: 70px;
+    border-radius: 10px;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#facebook {
+    width: 50px;
+    height: 50px;
+}
+
+#pied3 {
+    display: flex;
+    justify-content: space-evenly
+}
+
+#Marianne {
+    width: 400px;
+    display: flex;
+}
