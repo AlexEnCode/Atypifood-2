@@ -9,6 +9,7 @@
 #plat1 {
     height: 275px ;
 width: 275px;
+
 } 
 
 #plat2 {
@@ -442,6 +443,16 @@ margin-top: 70x;
 margin-bottom: 70px;
 
 }
+
+#dessertb{
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 70x;
+margin-bottom: 70px;
+
+}
+
+
 
 
 
