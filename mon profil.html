@@ -71,19 +71,24 @@
 </header>
 <main>
     <!-- Début formulaire -->
+<br>
+<br>
 
-    <div id="jenaimar">
-<form action="registration_form" method="post">
-    <label for="Prenom">Prenom</label>
+  <div id="vraimentmar">
+<form action="registration_form" method="post" id="jenaimar">
+    <div><label for="Prenom">Prenom</label></div>
        <input type="text" placeholder="ex: jean-pierre"><br/>
       <br>
-      <label for="Nom">nom</label>
+      <div><label for="Nom">Nom</label></div>
       <input type="text" placeholder="Ex: fouré"><br/>
       <br>
-    <label for="Adresse Email">Adresse Email</label>
+      <div><label for="Date de naissance">Date de naissance</label></div>
+        <input type="date"><br/>
+      <br>
+    <div><label for="Adresse Email">Adresse Email</label></div>
       <input type="text" placeholder="Ex: ..........@gmail.com"><br/>
       <br>
-    <label for="sélectioner la ville">sélectioner la ville</label>
+    <div><label for="sélectioner la ville">sélectioner la ville</label></div>
       <select name="Sélectionner la ville" id="Sélectionner la ville">
         <option value="Anger">Anger</option> 
         <option value="Bretagne">Bretagne</option>
@@ -103,28 +108,38 @@
         <option value="Montpellier">Montpellier</option>
         <option value="Toulon">Toulon</option>
       </select> <br/>
-      <br>
-      <label for="Date de naissance">Date de naissance</label>
-        <input type="date"><br/>
         <br>
-        <label for="Adresse">Adresse</label>
+        <div><label for="Adresse" id="adresse">Adresse</label></div>
+        <div>
         <input type="text" placeholder="adresse"><br/>
         <input type="text" placeholder="complément d'adresse"><br/>
+        </div>
         <br>
-      <label for="numéro de téléphone">Numero de téléphone</label>  
+      <div><label for="numéro de téléphone">Numero de téléphone</label></div>
         <input type="number" placeholder="Ex: 0763210156"><br/>
         <br>
-      <label for="Sexe">Sexe</label>
-        <input type="radio" name="Sexe1" value="Homme">Homme
-        <input type="radio" name="Sexe1" value="Femme">Femme
-        <input type="radio" name="Sexe1" value="Autre">Autre <br/>
+      <div><label for="Sexe" >Sexe</label></div>
+        <input type="radio" name="Sexe1" value="Homme" class="Sexe">Homme
+        <input type="radio" name="Sexe1" value="Femme" class="Sexe">Femme
+        <input type="radio" name="Sexe1" value="Autre" class="Sexe">Autre <br/>
+      <input type="submit" value="enregistrement" id="enregistrement">
         <br>
-    </div>
+        <br>
+        <br>
+        <img src="logo/logo fond blanc.png" alt="ATYPIFOOD" id="logofondblancpetit">
+    
     </label>
   </form>
+  </div>  
+
+ 
 
   <!-- fin formulaire -->
 </main>
+ <br>
+  <br>
+  <br>
+  <br>
 <footer>
 
     <section id="pied1">

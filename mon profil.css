@@ -363,16 +363,50 @@ hr {
 }
 
 main{
-    margin-top: 75px;
-    margin-bottom: 50 px;
+    margin: auto;
     border: 6px solid #025464;
     padding: 5px 10px;
     padding-left: 1px;
     padding-right: 1px;
     border-radius: 10%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    width: 30%;
 
+
+}
+#enregistrement {
+    background-color: #E8AA42;
+    color: #025464;
+    border: 2px solid #025464;
+}
+label
+{
+	width: 150px;
+	}
+#vraimentmar{
+    align-items: center;
+}
+#logofondblancpetit {
+    width: 30%;
+    padding: 20px;
+}
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    background-color: #E8AA42;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #025464;
+}
+#enregistrement{
+    background-color: #E8AA42;
+    color: #025464;
+    border: 2px solid #025464;
 }
 
 
