@@ -371,6 +371,7 @@ main{
     border-radius: 10%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 30%;
+    color: #468B97;
 
 
 }
@@ -403,11 +404,18 @@ input[type='radio']:checked:after {
     visibility: visible;
     border: 2px solid #025464;
 }
-#enregistrement{
+#ilfaitbeau {
     background-color: #E8AA42;
     color: #025464;
     border: 2px solid #025464;
-}
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin: 1%;
+    border-radius:10% ;
+    }
 
 
 /* Mon profil Fin */
