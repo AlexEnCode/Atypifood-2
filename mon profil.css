@@ -1,4 +1,4 @@
-head {
+dhead {
     color: #d8b4b4;
 }
 
@@ -345,3 +345,35 @@ h4 {
     width: 400px;
     display: flex;
 }
+
+
+
+
+
+
+
+/* Mon profil début */
+
+#jenaimar{
+    text-align: center;
+}
+hr {
+    list-style-type: none;
+   
+}
+
+main{
+    margin-top: 75px;
+    margin-bottom: 50 px;
+    border: 6px solid #025464;
+    padding: 5px 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+
+/* Mon profil Fin */
