@@ -26,6 +26,8 @@ button {
     bottom: 100%;
     
 }
+/* Ceci est le fichier CSS qui va nous servir à créer le style de nos pages web */
+
 
 #logofondblanc {
     width: 900px;
@@ -321,12 +323,14 @@ h4 {
 #Marianne {
     width: 400px;
     display: flex;
+    
 }
 main {
     width: 100%;
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    color: #468B97;
     text-decoration: underline #468B97 9% 51 4px;
     text-underline-offset: 8px;
 
@@ -335,8 +339,8 @@ main {
 h1 {
     text-align: left;
     color: #025464;
-    margin-left: 450px;
-    text-decoration: underline;
+    text-decoration: underline #025464 5% 51 2px;
+    text-underline-offset: 2px;
 
 }
 
@@ -384,6 +388,8 @@ a {
     font-size: 17px;
     padding: 16px 18px;
     margin-left: 60%;
+    margin-top: 30%;
+      
 }
 
 #plus {
@@ -460,4 +466,10 @@ p{
 #commander:hover{
     color: #ffffff61;
 }
+    
+commander:hover{
+    color: #ffe791;
+}
+
+
 

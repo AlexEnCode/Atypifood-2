@@ -170,7 +170,7 @@ h3 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    
+
 }
 
 
@@ -338,15 +338,16 @@ h4 {
 
 /* Mon profil début */
 
-#jenaimar{
+#jenaimar {
     text-align: center;
 }
+
 hr {
     list-style-type: none;
-   
+
 }
 
-main{
+main {
     margin: auto;
     border: 6px solid #025464;
     padding: 5px 10px;
@@ -355,25 +356,30 @@ main{
     border-radius: 10%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 30%;
+    color: #468B97;
 
 
 }
+
 #enregistrement {
     background-color: #E8AA42;
     color: #025464;
     border: 2px solid #025464;
 }
-label
-{
-	width: 150px;
-	}
-#vraimentmar{
+
+label {
+    width: 150px;
+}
+
+#vraimentmar {
     align-items: center;
 }
+
 #logofondblancpetit {
     width: 30%;
     padding: 20px;
 }
+
 input[type='radio']:checked:after {
     width: 10px;
     height: 10px;
@@ -387,13 +393,19 @@ input[type='radio']:checked:after {
     visibility: visible;
     border: 2px solid #025464;
 }
-#enregistrement{
+
+#ilfaitbeau {
     background-color: #E8AA42;
     color: #025464;
     border: 2px solid #025464;
-}
-body{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
+    margin: 1%;
+    border-radius: 10%;
 }
+
 
 /* Mon profil Fin */
