@@ -9,6 +9,7 @@
 #plat1 {
     height: 275px ;
 width: 275px;
+
 } 
 
 #plat2 {
@@ -323,8 +324,8 @@ width: 275px;
     border: 10px solid #ffcb14;
 }
 #boisson1 {
-    height: 275px ;
-width: 275px;
+    height: 225px ;
+width: 225px;
 }
 
 
@@ -336,8 +337,8 @@ width: 275px;
     border: 10px solid #ffcb14;
 }
 #boisson2 {
-    height: 275px ;
-width: 275px;
+    height: 225px ;
+width: 225px;
 }
 
 
@@ -349,8 +350,8 @@ width: 275px;
     border: 10px solid #ffcb14;
 }
 #boisson3 {
-    height: 275px ;
-width: 275px;
+    height: 225px ;
+width: 225px;
 }
 
 
@@ -362,8 +363,8 @@ width: 275px;
     border: 10px solid #ffcb14;
 }
 #boisson4 {
-    height: 275px ;
-width: 275px;
+    height: 225px ;
+width: 225px;
 }
 
 
@@ -376,8 +377,8 @@ width: 275px;
     border: 10px solid #ffcb14;
 }
 #boisson5 {
-    height: 275px ;
-width: 275px;
+    height: 225px ;
+width: 225px;
 }
 
 
@@ -390,9 +391,39 @@ width: 275px;
     border: 10px solid #ffcb14;
 }
 #boisson6 {
-    height: 275px ;
-width: 275px;
+    height: 225px ;
+width: 225px;
 }
+
+#boisson7 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#boisson7 {
+    border: 10px solid #ffcb14;
+}
+#boisson7 {
+    height: 225px ;
+width: 225px;
+}
+
+
+#boisson8 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#boisson8 {
+    border: 10px solid #ffcb14;
+}
+#boisson8 {
+    height: 225px ;
+width: 225px;
+}
+
+
+
+
+
 
 /* Fin boissons */
 
@@ -411,6 +442,28 @@ margin-bottom: 70px;
 margin-top: 70x;
 margin-bottom: 70px;
 
+}
+
+#dessertb{
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 70x;
+margin-bottom: 70px;
+
+}
+
+#boissonA{
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 70px;
+margin-bottom: 70px;
+} 
+
+#boissonB{
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 70px;
+margin-bottom: 70px;
 }
 
 

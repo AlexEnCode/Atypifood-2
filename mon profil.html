@@ -9,16 +9,23 @@
 
 
 
+
+
+
+
+
+
+
 <header>
-    <form action="Le tableau.html" method="get">
+    <form action="Accueil.html" method="get">
         <section id="entete">
-            <button> <img src="logo/logo fond blanc.png" alt="ATYPIFOOD" id="logofondblanc"></button>
+            <button> <img src="logo poulpe.png" alt="Accueil.html" id="logofondblanc"></button>
         </section>
         <br>
         <section id="boutonentete">
 
             <span>
-                <button> <img src="logo/profil.png" alt="" id="profil"></button>
+                <button> <img src="logo/profil.png" alt="mon profil.html" id="profil"></button>
             </span>
 
             <span id="recherche">
@@ -29,7 +36,7 @@
             </span>
 
             <span>
-                <button><img src="logo/panier.png" alt="" id="panier"></button>
+                <button><img src="logo/panier.png" alt="panier.html" id="panier"></button>
             </span>
     </form>
 
@@ -37,7 +44,7 @@
     <nav>
         <ul>
             <li><a href="#">Accueil</a></li>
-            <li class="deroulant"><a href="#" Border>Plats</a>
+            <li class="deroulant"><a href="Plat.html" Border>Plats</a>
                 <ul class="sous">
                     <li><a href="#">Plat1</a></li>
                     <li><a href="#">plat2</a></li>
@@ -47,14 +54,14 @@
                     <li><a href="#">Plat6</a></li>
                 </ul>
             </li>
-            <li class="deroulant" Border><a href="#">Desserts</a>
+            <li class="deroulant" Border><a href="Dessert.html">Desserts</a>
                 <ul class="sous">
                     <li><a href="#">Dessert1</a></li>
                     <li><a href="#">Dessert2</a></li>
                     <li><a href="#">Dessert3</a></li>
                 </ul>
             </li>
-            <li class="deroulant"><a href="#" Border>Boissons</a>
+            <li class="deroulant"><a href="Boisson.html" Border>Boissons</a>
                 <ul class="sous">
                     <li><a href="#">Boisson1</a></li>
                     <li><a href="#">Boisson2</a></li>
@@ -64,26 +71,35 @@
                     <li><a href="#">Boisson6</a></li>
                 </ul>
             </li>
-            <li><a href="#">A propos</a></li>
+            <li><a href="a propos.html">A propos</a></li>
         </ul>
     </nav>
     </section>
 </header>
+<br>
+<br>
+<br>
+<br>
 <main>
     <!-- Début formulaire -->
+<br>
+<br>
 
-    <div id="jenaimar">
-<form action="registration_form" method="post">
-    <label for="Prenom">Prenom</label>
+  <div id="vraimentmar">
+<form action="registration_form" method="post" id="jenaimar">
+    <div><label for="Prenom">Prenom</label></div>
        <input type="text" placeholder="ex: jean-pierre"><br/>
       <br>
-      <label for="Nom">nom</label>
+      <div><label for="Nom">Nom</label></div>
       <input type="text" placeholder="Ex: fouré"><br/>
       <br>
-    <label for="Adresse Email">Adresse Email</label>
+      <div><label for="Date de naissance">Date de naissance</label></div>
+        <input type="date"><br/>
+      <br>
+    <div><label for="Adresse Email">Adresse Email</label></div>
       <input type="text" placeholder="Ex: ..........@gmail.com"><br/>
       <br>
-    <label for="sélectioner la ville">sélectioner la ville</label>
+    <div><label for="sélectioner la ville">sélectioner la ville</label></div>
       <select name="Sélectionner la ville" id="Sélectionner la ville">
         <option value="Anger">Anger</option> 
         <option value="Bretagne">Bretagne</option>
@@ -103,28 +119,42 @@
         <option value="Montpellier">Montpellier</option>
         <option value="Toulon">Toulon</option>
       </select> <br/>
-      <br>
-      <label for="Date de naissance">Date de naissance</label>
-        <input type="date"><br/>
         <br>
-        <label for="Adresse">Adresse</label>
+        <div><label for="Adresse" id="adresse">Adresse</label></div>
+        <div>
         <input type="text" placeholder="adresse"><br/>
         <input type="text" placeholder="complément d'adresse"><br/>
+        </div>
         <br>
-      <label for="numéro de téléphone">Numero de téléphone</label>  
+      <div><label for="numéro de téléphone">Numero de téléphone</label></div>
         <input type="number" placeholder="Ex: 0763210156"><br/>
         <br>
-      <label for="Sexe">Sexe</label>
-        <input type="radio" name="Sexe1" value="Homme">Homme
-        <input type="radio" name="Sexe1" value="Femme">Femme
-        <input type="radio" name="Sexe1" value="Autre">Autre <br/>
+      <div><label for="Sexe" >Sexe</label></div>
+        <input type="radio" name="Sexe1" value="Homme" class="Sexe">Homme
+        <input type="radio" name="Sexe1" value="Femme" class="Sexe">Femme
+        <input type="radio" name="Sexe1" value="Autre" class="Sexe">Autre <br/>
         <br>
-    </div>
+        <br>
+
+      <input type="submit" value="enregistrement" id="ilfaitbeau">
+        <br>
+        <br>
+        <br>
+        <a href="Accueil.html">
+        <img  src="logo/logo fond blanc.png" alt="ATYPIFOOD" id="logofondblancpetit" ></a>
+    
     </label>
   </form>
+  </div>  
+
+ 
 
   <!-- fin formulaire -->
 </main>
+ <br>
+  <br>
+  <br>
+  <br>
 <footer>
 
     <section id="pied1">
