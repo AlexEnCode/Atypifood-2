@@ -164,6 +164,14 @@ h3 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #468B97;
+    margin-bottom: 100px;
+}
+
+
 .element {
     display: flex;
     align-items: flex-start;
@@ -180,6 +188,7 @@ h3 {
     color: #468B97;
     text-align: center;
     border-style: none;
+    margin-bottom: 100px;
 
 
 }
@@ -193,18 +202,132 @@ h3 {
     justify-content: flex-end;
 }
 
-#icone1 img{
-height: 60px;
+#icone1 img {
+    height: 60px;
 }
 
-#icone2 img{
-height: 70px;
+#icone2 img {
+    height: 70px;
 }
 
-#icone3 img{
-height: 70px;
+#icone3 img {
+    height: 70px;
 }
 
+
+#lebloc {
+    position: relative;
+    display: grid;
+}
+
+#cadremere {
+    width: 88%;
+    height: 600px;
+    justify-self: end;
+    background-color: #025464;
+    border-radius: 16% 0% 0% 10% / 33% 10% 10% 0%;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+#souscadre {
+    width: 91%;
+    height: 82%;
+    background-color: #468B97;
+    position: static;
+    border-top: #ffffff 6px solid;
+    border-left: #ffffff 6px solid;
+    border-radius: 12% 0% 0% 10% / 33% 0% 10% 0%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#souscadre div {
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+}
+
+#textesouscadre {
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+    margin: 30px;
+    align-self: center;
+    line-height: 1.5;
+    width: 40%;
+    
+}
+
+#pourlpe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    vertical-align: middle;
+
+
+}
+
+#poulpe img {
+    height: 220px;
+    border-radius: 100%;
+    border: #025464 solid 9px;
+    outline : 7px solid rgb(255, 255, 255) ;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    align-items: center;
+    vertical-align: middle;
+   
+
+}
+
+#cadrephoto {
+    height: 400px;
+    justify-self: end;
+    background-color: #ffffff;
+    width: 88%;
+    font-weight: bold;
+    z-index: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+#cadrephoto div {
+    justify-content: space-evenly;
+    align-items: stretch;
+    display: inline;
+    image-rendering: auto;
+}
+
+#photobouche1 {
+    width: 100%;
+    max-height: fit-content;
+    max-width: max-content;
+    border-radius: 0% 0% 0% 16% / 0% 10% 10% 33%;
+    z-index: 0;
+
+}
+
+#photobouche2 {
+    width: 100%;
+    max-height: fit-content;
+    z-index: 0;
+}
+
+#photobouche3 {
+    width: 100%;
+    max-height: fit-content;
+    z-index: 0;
+}
 
 
 #logo {
@@ -215,8 +338,6 @@ height: 70px;
     color: #468B97;
     text-align: center;
     border-style: none;
-
-
 }
 
 #logo1,
