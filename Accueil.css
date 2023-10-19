@@ -159,10 +159,89 @@ nav>ul li:hover .sous {
     height: 1500px;
 }
 
+
+
+#imageBoucheTop{
+    display: block;
+    opacity: 50%;
+    
+}
+
+#cadreTop {
+    justify-content: space-evenly;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)) ,  url(Dossier-photo.html/edible-insects2.jpg);
+    background-size: cover;
+  }
+
+#textTop {
+    text-align: center;
+    color: #ffffff;
+    margin: 30px;
+    align-self: center;
+    line-height: 1.5;
+    background-color: #025464;
+    border: #468B97 solid 30px;
+    border-radius: 30% 30% 30% 30% / 20% 20% 20% 20%;
+    outline: 15px solid rgb(255, 255, 255);
+    height: 450px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+
+}
+
+#imageTop {
+    border-top: 250px;
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+    border: #025464 solid 15px;
+    outline: 15px solid rgb(255, 255, 255);
+    margin-top: 270px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1,
 h3 {
     text-align: center;
 }
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #468B97;
+    margin-bottom: 100px;
+}
+
 
 .element {
     display: flex;
@@ -180,6 +259,7 @@ h3 {
     color: #468B97;
     text-align: center;
     border-style: none;
+    margin-bottom: 100px;
 
 
 }
@@ -193,18 +273,132 @@ h3 {
     justify-content: flex-end;
 }
 
-#icone1 img{
-height: 60px;
+#icone1 img {
+    height: 60px;
 }
 
-#icone2 img{
-height: 70px;
+#icone2 img {
+    height: 70px;
 }
 
-#icone3 img{
-height: 70px;
+#icone3 img {
+    height: 70px;
 }
 
+
+#lebloc {
+    position: relative;
+    display: grid;
+}
+
+#cadremere {
+    width: 80%;
+    height: 500px;
+    justify-self: end;
+    background-color: #025464;
+    border-radius: 16% 0% 0% 10% / 33% 10% 10% 0%;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+#souscadre {
+    width: 91%;
+    height: 82%;
+    background-color: #468B97;
+    position: static;
+    border-top: #ffffff 6px solid;
+    border-left: #ffffff 6px solid;
+    border-radius: 12% 0% 0% 10% / 33% 0% 10% 0%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#souscadre div {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+#textesouscadre {
+    text-align: center;
+    color: #ffffff;
+    font-size: 31px;
+    margin: 30px;
+    align-self: center;
+    line-height: 1.5;
+    width: 40%;
+
+}
+
+#pourlpe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    vertical-align: middle;
+
+
+}
+
+#poulpe img {
+    height: 180px;
+    border-radius: 100%;
+    border: #025464 solid 9px;
+    outline: 7px solid rgb(255, 255, 255);
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    align-items: center;
+    vertical-align: middle;
+
+
+}
+
+#cadrephoto {
+    height: 390px;
+    justify-self: end;
+    background-color: #ffffff;
+    width: 80%;
+    font-weight: bold;
+    z-index: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+#cadrephoto div {
+    justify-content: space-evenly;
+    align-items: stretch;
+    display: inline;
+    image-rendering: auto;
+}
+
+#photobouche1 {
+    width: 100%;
+    max-height: fit-content;
+    max-width: max-content;
+    border-radius: 10% 0% 0% 41% / 0% 10% 10% 31%;
+    z-index: 0;
+
+}
+
+#photobouche2 {
+    width: 100%;
+    max-height: fit-content;
+    z-index: 0;
+}
+
+#photobouche3 {
+    width: 100%;
+    max-height: fit-content;
+    z-index: 0;
+}
 
 
 #logo {
@@ -215,8 +409,6 @@ height: 70px;
     color: #468B97;
     text-align: center;
     border-style: none;
-
-
 }
 
 #logo1,

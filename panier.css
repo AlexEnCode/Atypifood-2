@@ -1,5 +1,11 @@
 /* Ceci est le fichier CSS qui va nous servir à créer le style de nos pages web */
 
+
+#logofondblanc {
+    width: 900px;
+    text-align: center;
+    
+}
 main {
     width: 100%;
     margin: auto;
