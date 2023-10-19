@@ -1,0 +1,121 @@
+/* Ceci est le fichier CSS qui va nous servir à créer le style de nos pages web */
+
+main {
+    width: 100%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: underline #468B97 9% 51 4px;
+    text-underline-offset: 8px;
+
+}
+
+h1 {
+    text-align: left;
+    color: #025464;
+    margin-left: 450px;
+    text-decoration: underline;
+
+}
+
+table {
+    border: 15px solid #025464;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: #025464;
+}
+
+footer {
+    text-align: center;
+}
+
+
+#pied1 {
+    background-color: #468B97;
+}
+
+#pied2 {
+    background-color: #025464;
+    
+}
+
+#tableaudubas {
+    color: #ffffff;
+    border-left: 150px;
+    border-right: 150px;
+}
+
+a {
+    display: inline-block ;
+    padding: 8px;
+    background-color: #025464;
+    color: #ffffff;
+    
+    
+}
+
+#commander {
+    background-color: #ffcb14;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 16px 18px;
+    margin-left: 60%;
+}
+
+#plus {
+    background-color: #ffcb14;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 4px 8px;
+    margin-left: 770px;
+
+}
+
+#moins {
+    background-color: #ffcb14;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 4px 8px;  
+    
+}
+
+#supprimer {
+    background-color: #ffcb14;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 6px 10px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+#details {
+    margin-left: 450px;
+    font-weight: 550;
+    text-decoration-line: underline;
+}
+#cadre{
+    text-align: center;
+    border-style: groove;
+    padding-bottom: 850px;
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #468b9784;
+    border-width: 3px;
+    border-color: rgba(0, 0, 0, 0.378);
+       
+}
+#reseauxsociaux {  
+   margin-left: 70%; 
+}
+#reseauxsociaux :hover {
+        background-color: white;
+        border-radius: 20%;
+    }
+#Atypifood{
+    width: 850px;
+    padding-left: 350px;
