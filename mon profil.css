@@ -174,22 +174,6 @@ h3 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #pied1 {
     background-color: #468B97;
 }
@@ -408,6 +392,8 @@ input[type='radio']:checked:after {
     color: #025464;
     border: 2px solid #025464;
 }
+body{
 
+}
 
 /* Mon profil Fin */
