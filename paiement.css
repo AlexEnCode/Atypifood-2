@@ -39,7 +39,6 @@ position: flex;
     margin-bottom: 4px;
 }
 
-
 #panier {
     position: flex;
     width: 60px;
@@ -272,7 +271,7 @@ table {
 }
 
 #avisetoile:hover {
-    background-image: url(etoile2.png);
+    background-image: url(Logo/etoile2.png);
 }
 
 #avis {
@@ -449,3 +448,4 @@ h1{
     font-size: 14px;
     font-weight: 600;
 }
+

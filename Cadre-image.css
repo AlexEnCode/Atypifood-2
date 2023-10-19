@@ -1,3 +1,10 @@
+
+body{
+    font-family: 'Roboto';
+}
+
+
+
 /* Debut cadre photo plat */
 #plat1 {
     background-color: rgb(255, 255, 255);
@@ -187,17 +194,7 @@ width: 275px;
 }
 
 
-#dessert7 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#dessert7 {
-    border: 10px solid #ffcb14;
-}
-#dessert7 {
-    height: 275px ;
-width: 275px;
-} 
+
 
 
 #dessert8 {
@@ -452,6 +449,8 @@ margin-bottom: 70px;
 
 }
 
+
+
 #boissonA{
     display: flex;
     justify-content: space-evenly;
@@ -465,6 +464,24 @@ margin-bottom: 70px;
 margin-top: 70px;
 margin-bottom: 70px;
 }
+
+
+#Rondphoto1 {
+    background-color:rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+#Rondphoto1 {
+    border:  border: 5px double #ffcb14 
+}
+
+
+
+#Rondphoto1 {
+    height: 225px ;
+width: 225px;
+} 
+
 
 
 
