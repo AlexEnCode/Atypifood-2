@@ -405,7 +405,25 @@ h4 {
 h1{
     color: #025464;
 }
-span{
-    font-weight: 900;
-}
 
+
+p{
+    font-weight: 900;
+    color: #025464;
+    text-align: center;
+}
+.reponse{
+    font-weight: 100;
+    width: 80%;
+}
+.question{
+    background-color: #468b979c;
+    width: 50%;
+    padding: 2%;
+}
+#faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
