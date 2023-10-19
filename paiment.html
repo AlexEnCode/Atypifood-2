@@ -4,32 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="connectionidentification.css">
-    <title>Se connecter</title>
+    <link rel="stylesheet" href="paiment.css">
+    <title>Paiment</title>
 </head>
 
 
-<form action="Accueil.html" method="get">
-  
+<form action="Le tableau.html" method="get">
+    <style>
+
+    </style>
     </head>
 
 
     <header>
 
         <section id="entete">
-            <button> <img src="logo poulpe.png" alt="ATYPIFOOD" id="logofondblanc"></button>
+            <button> <img src="logo/logo fond blanc.png" alt="ATYPIFOOD" id="logofondblanc"></button>
         </section>
         <br>
         <section id="boutonentete">
 
             <span>
-                <button> <img src="logo/profil.png" alt="" id="profil"></button>
+                <button> <img src="" alt="" id="profil"></button>
             </span>
 
             <span id="recherche">
                 <form id="barrecherche">
                     <div> <input id=recherche2 type="text" name="text" class="search" placeholder=" "> </div>
-                    <div> <button id="boutonrecherche"><img src="logo/loupeblanche2.png" alt=""></button> </div>
+                    <div> <button id="boutonrecherche"><img src="loupeblanche.png" alt=""></button> </div>
                 </form>
             </span>
 
@@ -41,10 +43,10 @@
         </section>
         <nav>
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li class="deroulant"><a href="#" Border>Plats</a>
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li class="deroulant"><a href="Plat.html" Border>Plats</a>
                     <ul class="sous">
-                        <li><a href="#">Salade de Jimini's</a></li>
+                        <li><a href="#">Plat1</a></li>
                         <li><a href="#">plat2</a></li>
                         <li><a href="#">Plat3</a></li>
                         <li><a href="#">Plat4</a></li>
@@ -52,14 +54,14 @@
                         <li><a href="#">Plat6</a></li>
                     </ul>
                 </li>
-                <li class="deroulant" Border><a href="#">Desserts</a>
+                <li class="deroulant" Border><a href="Dessert.html">Desserts</a>
                     <ul class="sous">
                         <li><a href="#">Dessert1</a></li>
                         <li><a href="#">Dessert2</a></li>
                         <li><a href="#">Dessert3</a></li>
                     </ul>
                 </li>
-                <li class="deroulant"><a href="#" Border>Boissons</a>
+                <li class="deroulant"><a href="Boisson.html" Border>Boissons</a>
                     <ul class="sous">
                         <li><a href="#">Boisson1</a></li>
                         <li><a href="#">Boisson2</a></li>
@@ -69,49 +71,50 @@
                         <li><a href="#">Boisson6</a></li>
                     </ul>
                 </li>
-                <li><a href="#">A propos</a></li>
+                <li><a href="a propos.html">A propos</a></li>
             </ul>
         </nav>
         </section>
     </header>
 
+<main>
+        <!-- Titre -->
+    <h1>Paiement:</h1>
+        <!-- logo paypal-->
+<img src="Paypal.png" alt="Logo de paypal"id="paypal">
+    <!-- Logo CB -->
+<img src="CB.jpg" alt="logo CB"id="cb">
 
-    <body>
+<br>
+        
+<!-- Formulaire de paiment  -->
+        <!-- Case Nom -->
+                    <p class="text">Nom sur la carte</p>
+                    <input class="form-control" type="text" placeholder="Nom">
+                </div>
+            </dv>
+        <!-- Case numéro -->
+                    <p class="text">Numéro de carte</p>
+                    <input class="form-control" type="text" placeholder="1234 5678 4578">
+                </div>
+            </div>
+        <!-- Case Expiration -->
+                    <p class="text">Date d'expiration</p>
+                    <input class="form-control" type="text" placeholder="M/A">
+                </div>
+            </div>
+        <!-- Case securité -->
+                    <p class="text">CVV/CVC</p>
+                    <input class="form-control " type="password" placeholder="***">
+</div>
+<br><br>
+<button id="commander">Commander</button>
 
-        <main>
-            <br><br>
-            <h1> Se connecter</h1>
-
-            <form id="tableauconnection" action="Le tableau.html" method="get">
-                <label for="formulaire">
-
-                    <br><br><br>
-                    <label for="votre identifiant:">Identifiant: <br>
-                        <input type="text">
-                        <br>
-                    </label> <br>
-                    <label for="votre mot de passe:"> Mot de passe: <br>
-                        <input type="text"><br>
-                        <button> Mot de passe oublié? </button>
-                    </label>
-                    <br> <br><br><br>
-                    En passant votre commande, vous acceptez les Conditions <br>Générales de Vente d'Atypifood.
-
-                    <br><br><br>
-                    <label id="se-connecter" for="submit">
-                        <input type="submit" value="Se connecter">
-                    </label>
-                    <br><br>
-                    Nouveau client ? <button> Commencer ici.</button>
-                    <br><br>
-                </label>
-            </form>
-            <img src="logo/logo fond blanc.png" alt="ATYPIFOOD" id="logofondblancpetit">
-
-        </main>
-        <br><br><br><br><br><br>
-
-        <footer>
+<!-- Fin du formulaire de paiment -->
+</main>
+<br><br><br><br><br><br><br>
+    
+    <footer>
 
         <section id="pied1">
             <br><br>
@@ -120,7 +123,7 @@
                     Que pensent nos clients de Atypifood?
                 </div>
                 <div> <img src="logo/etoile.png" alt="" id="avisetoile"><img src="logo/etoile.png" alt="" id="avisetoile"><img
-                        src="logo/etoile.png" alt="" id="avisetoile"><img src="logo/etoile.png" alt="" id="avisetoile"><img
+                        src="logo/etoile2.png" alt="" id="avisetoile"><img src="logo/etoile.png" alt="" id="avisetoile"><img
                         src="logo/etoile.png" alt="" id="avisetoile">
                 </div>
             </section>
@@ -144,8 +147,9 @@
             <br>
         </section>
 
-        <section id="pied2">
+        <br><br><br><br>
 
+        <section id="pied2">
 
             <div>
                 <section>
@@ -202,9 +206,13 @@
             <div> <br>Pour votre santé, ne grignotez pas entre les repas <br> <a
                     href="https://www.mangerbouger.fr">www.mangerbouger.fr</div></a>
             <div></div>
-            <div id="Marianne"><img src="logo/footer_gabarit.webp" alt="mange et bouge"></div>
+            <div id="Marianne"><img src="footer_gabarit.webp" alt="mange et bouge"></div>
         </section>
     </footer>
 
 </body>
+
+</html>
+</body>
+
 </html>

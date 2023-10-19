@@ -1,4 +1,4 @@
-dhead {
+head {
     color: #d8b4b4;
 }
 
@@ -10,22 +10,21 @@ a {
 a,
 button {
     cursor: pointer;
-    cursor: url(curseur.png), pointer;
-    background: none;
+    cursor: url(curseur.png), pointer; 
+     background: none;
     border: none;
 }
 
 #entete {
     display: flex;
     justify-content: space-evenly;
-
+ 
 }
-
 #boutonentete {
     display: flex;
     justify-content: space-around;
     bottom: 100%;
-
+    
 }
 
 #logofondblanc {
@@ -34,7 +33,7 @@ button {
 }
 
 #profil {
-    position: flex;
+position: flex;
     width: 68px;
     margin-top: 0px;
     margin-bottom: 4px;
@@ -51,7 +50,7 @@ button {
 #recherche {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top:10px;
 }
 
 #recherche2 {
@@ -161,26 +160,12 @@ nav>ul li:hover .sous {
     height: 1500px;
 }
 
+
+
 h1,
 h3 {
     text-align: center;
 }
-
-.element {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -229,8 +214,8 @@ h3 {
 }
 
 footer {
-    background: none;
-    display: block;
+background: none;
+display: block;
 }
 
 #pied2 {
@@ -345,77 +330,3 @@ h4 {
     width: 400px;
     display: flex;
 }
-
-
-
-
-
-
-
-/* Mon profil début */
-
-#jenaimar{
-    text-align: center;
-}
-hr {
-    list-style-type: none;
-   
-}
-
-main{
-    margin: auto;
-    border: 6px solid #025464;
-    padding: 5px 10px;
-    padding-left: 1px;
-    padding-right: 1px;
-    border-radius: 10%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 30%;
-    color: #468B97;
-
-
-}
-#enregistrement {
-    background-color: #E8AA42;
-    color: #025464;
-    border: 2px solid #025464;
-}
-label
-{
-	width: 150px;
-	}
-#vraimentmar{
-    align-items: center;
-}
-#logofondblancpetit {
-    width: 30%;
-    padding: 20px;
-}
-input[type='radio']:checked:after {
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    top: 0px;
-    left: 0px;
-    position: relative;
-    background-color: #E8AA42;
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid #025464;
-}
-#ilfaitbeau {
-    background-color: #E8AA42;
-    color: #025464;
-    border: 2px solid #025464;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-    margin: 1%;
-    border-radius:10% ;
-    }
-
-
-/* Mon profil Fin */
