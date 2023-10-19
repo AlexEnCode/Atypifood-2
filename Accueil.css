@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 head {
     color: #d8b4b4;
 }
@@ -161,59 +166,75 @@ nav>ul li:hover .sous {
 
 
 
-#imageBoucheTop{
+#imageBoucheTop {
     display: block;
     opacity: 50%;
-    
+
 }
 
 #cadreTop {
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 30px;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)) ,  url(Dossier-photo.html/edible-insects2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(Dossier-photo.html/edible-insects2.jpg);
     background-size: cover;
-  }
+    text-align: center;
+}
 
 #textTop {
     text-align: center;
     color: #ffffff;
-    margin: 30px;
+    
     align-self: center;
     line-height: 1.5;
     background-color: #025464;
     border: #468B97 solid 30px;
     border-radius: 30% 30% 30% 30% / 20% 20% 20% 20%;
-    outline: 15px solid rgb(255, 255, 255);
+    outline: 12px solid rgb(255, 255, 255);
     height: 450px;
     width: 300px;
-    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 220px;
-
+    margin-top: 180px;
 }
 
 #imageTop {
-    border-top: 250px;
+    border-top: 10px;
     height: 300px;
     width: 300px;
     border-radius: 20%;
     border: #025464 solid 15px;
-    outline: 15px solid rgb(255, 255, 255);
+    outline: 12px solid rgb(255, 255, 255);
     margin-top: 270px;
-    margin-left: 100px;
-    margin-right: 100px;
+  
     margin-bottom: 30px;
     align-items: center;
     vertical-align: middle;
 }
 
 
+#MereBoutonSelection {
+    display: grid;
+}
 
-
-
+#boutonSelection {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    justify-self: end;
+    width: 100px;
+    background-color: #025464;
+    color: #ffffff;
+    border: 2px solid #468B97;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -409,6 +430,7 @@ h2 {
     color: #468B97;
     text-align: center;
     border-style: none;
+    margin-bottom: 50px;
 }
 
 #logo1,
