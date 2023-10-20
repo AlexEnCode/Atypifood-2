@@ -1,4 +1,17 @@
 /* Debut cadre photo plat */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header {
+    background-color: #F3EDEB;
+}
+body {
+    background-color: #F3EDEB;
+}
+
 #plat1 {
     background-color: rgb(255, 255, 255);
     border-radius: 15%;
@@ -106,204 +119,6 @@ width: 275px;
 /* Fin cadre photo plat*/
 
 
-/* Debut cadre dessert */
-
-
-#dessert1 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#dessert1 {
-    border: 10px solid #ffcb14;
-}
-#dessert1 {
-    height: 275px ;
-width: 275px;
-} 
-
-
-#dessert2 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#dessert2 {
-    border: 10px solid #ffcb14;
-}
-#dessert2 {
-    height: 275px ;
-width: 275px;
-} 
-
-
-#dessert3 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#dessert3 {
-    border: 10px solid #ffcb14;
-}
-#dessert3 {
-    height: 275px ;
-width: 275px;
-} 
-
-
-#dessert4 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#dessert4 {
-    border: 10px solid #ffcb14;
-}
-#dessert4 {
-    height: 275px ;
-width: 275px;
-} 
-
-
-#dessert5 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#dessert5 {
-    border: 10px solid #ffcb14;
-}
-#dessert5 {
-    height: 275px ;
-width: 275px;
-} 
-
-
-#dessert6 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#dessert6 {
-    border: 10px solid #ffcb14;
-}
-#dessert6 {
-    height: 275px ;
-width: 275px;
-}
-
-
-
-
-
-#dessert8 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#dessert8 {
-    border: 10px solid #ffcb14;
-}
-#dessert8 {
-    height: 275px ;
-width: 275px;
-}
-
-
-#dessert9 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#dessert9 {
-    border: 10px solid #ffcb14;
-}
-#dessert9 {
-    height: 275px ;
-width: 275px;
-} 
-
-
-/* Fin cadre dessert  */
-
-
-/* Debut cadre entree */
-
-
-#entree1 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#entree1 {
-    border: 10px solid #ffcb14;
-}
-#entree1 {
-    height: 275px ;
-width: 275px;
-} 
-
-
-#entree2 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#entree2 {
-    border: 10px solid #ffcb14;
-}
-#entree2 {
-    height: 275px ;
-width: 275px;
-}
-
-
-#entree3 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#entree3 {
-    border: 10px solid #ffcb14;
-}
-#entree3 {
-    height: 275px ;
-width: 275px;
-}
-
-
-#entree4 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#entree4 {
-    border: 10px solid #ffcb14;
-}
-#entree4 {
-    height: 275px ;
-width: 275px;
-}
-
-
-#entree5 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#entree5 {
-    border: 10px solid #ffcb14;
-}
-#entree5 {
-    height: 275px ;
-width: 275px;
-}
-
-
-#entree6 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#entree6 {
-    border: 10px solid #ffcb14;
-}
-#entree6 {
-    height: 275px ;
-width: 275px;
-}
-
-/* Fin cadre entree */
-
-
-/* Debut cadre boissons */
-
 
 
 #boisson1 {
@@ -311,52 +126,12 @@ width: 275px;
     border-radius: 15%;
 }
 #boisson1 {
-    border: 10px solid #ffcb14;
+    border: 2px solid #025464;
 }
 #boisson1 {
-    height: 225px ;
-width: 225px;
+    height: 400px ;
+width: 400px;
 }
-
-
-#boisson2 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#boisson2 {
-    border: 10px solid #ffcb14;
-}
-#boisson2 {
-    height: 225px ;
-width: 225px;
-}
-
-
-#boisson3 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#boisson3 {
-    border: 10px solid #ffcb14;
-}
-#boisson3 {
-    height: 225px ;
-width: 225px;
-}
-
-
-#boisson4 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#boisson4 {
-    border: 10px solid #ffcb14;
-}
-#boisson4 {
-    height: 225px ;
-width: 225px;
-}
-
 
 
 #boisson5 {
@@ -364,50 +139,24 @@ width: 225px;
     border-radius: 15%;
 }
 #boisson5 {
-    border: 10px solid #ffcb14;
+    border: 2px solid #025464;
 }
 #boisson5 {
-    height: 225px ;
-width: 225px;
-}
+    height: 400px ;
+    width: 400px;
+    }
 
 
-
-#boisson6 {
+#boisson9 {
     background-color: rgb(255, 255, 255);
     border-radius: 15%;
 }
-#boisson6 {
-    border: 10px solid #ffcb14;
+#boisson9 {
+    border: 2px solid #025464;
 }
-#boisson6 {
-    height: 225px ;
-width: 225px;
-}
-
-#boisson7 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#boisson7 {
-    border: 10px solid #ffcb14;
-}
-#boisson7 {
-    height: 225px ;
-width: 225px;
-}
-
-
-#boisson8 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#boisson8 {
-    border: 10px solid #ffcb14;
-}
-#boisson8 {
-    height: 225px ;
-width: 225px;
+#boisson9 {
+    height: 400px ;
+    width: 400px;
 }
 
 
@@ -458,6 +207,12 @@ margin-top: 70px;
 margin-bottom: 70px;
 }
 
+#boissonC{
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 70px;
+margin-bottom: 70px;
+}
 
 #Rondphoto1 {
     background-color:rgb(255, 255, 255);
