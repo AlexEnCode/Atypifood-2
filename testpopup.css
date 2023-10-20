@@ -22,7 +22,7 @@
   }
   span {
     color: #666;
-    display: block;
+    
     padding: 0 0 5px;
   }
   form {
@@ -32,28 +32,19 @@
     background: #eee;
     border-radius: 60px;
   }
-  input,
-  textarea {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 20px;
 
-    outline: none;
-  }
-  .contact-form button {
+  .contact-form  {
     width: 100%;
     padding: 10px;
     border: none;
-    background: #1c87c9;
+    
     font-size: 16px;
     font-weight: 400;
     color: #fff;
     /* display: flex;
     align-items: center; */
   }
-  button:hover {
-    background: #2371a0;
-  }
+ 
   .close {
     color: #aaa;
     float: right;
