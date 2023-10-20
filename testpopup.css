@@ -1,3 +1,4 @@
+/* debut popup */
 *{
     margin: 0;
     padding: 0;
@@ -19,11 +20,11 @@
 }
 
 .popup-content{
-    max-width: 600px;
-    padding: 30px;
+    max-width: 6000px;
+    padding: 400px;
     width: 100%;
     box-sizing: border-box;
-    background: #d01818;
+    background: #d0181800;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -57,3 +58,50 @@ border-radius:5px;
 #popup-overlay.open{
     display:block !important;
 }
+
+
+
+/* fin popup */
+.fond {
+    z-index: 0;
+width: 1300px;
+    height: 550px;
+    background-color: #468B97;
+    position: relative;
+    bottom: 300px;
+     border: solid #E8AA42 10px;
+     border-radius: 50px;
+}
+#Poulpe-puree {
+    z-index: 1;
+    height: 400px ;
+    width: 400px;
+    position: relative;
+    left: 50px;
+    top: 200px;
+   border-radius: 10%;
+   border: #ffcb14 solid 10px;
+
+}
+
+#Description {
+   
+    position: relative;
+    width: 400px;
+    height: 200px;
+    left: 700px;
+    top: 120px;
+    color: white;
+    font-size: 30px;
+
+}
+
+#titre{
+    position: relative;
+    bottom: 210px;
+    left: 700px;
+    font-size: 50px;
+}
+
+
+
