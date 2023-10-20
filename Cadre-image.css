@@ -12,109 +12,6 @@ body {
     background-color: #F3EDEB;
 }
 
-#plat1 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#plat1 {
-    border: 10px solid #ffcb14;
-}
-#plat1 {
-    height: 275px ;
-width: 275px;
-
-} 
-
-#plat2 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#plat2 {
-    border: 10px solid #ffcb14;
-}
-#plat2 {
-    height: 275px ;
-width: 275px;
-} 
-
-#plat3 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#plat3 {
-    border: 10px solid #ffcb14;
-}
-#plat3 {
-    height: 275px ;
-width: 275px;
-} 
-
-
-#plat4 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#plat4 {
-    border: 10px solid #ffcb14;
-}
-#plat4 {
-    height: 275px ;
-width: 275px;
-} 
-
-
-#plat5 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#plat5 {
-    border: 10px solid #ffcb14;
-}
-#plat5 {
-    height: 275px ;
-width: 275px;
-} 
-
-
-#plat6 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#plat6 {
-    border: 10px solid #ffcb14;
-}
-#plat6 {
-    height: 275px ;
-width: 275px;
-} 
-
-
-
-#plat7 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#plat7 {
-    border: 10px solid #ffcb14;
-}
-#plat7 {
-    height: 275px ;
-width: 275px;
-} 
-
-
-#plat8 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-}
-#plat8 {
-    border: 10px solid #ffcb14;
-}
-#plat8 {
-    height: 275px ;
-width: 275px;
-} 
-
 
 /* Fin cadre photo plat*/
 
@@ -129,8 +26,8 @@ width: 275px;
     border: 2px solid #025464;
 }
 #boisson1 {
-    height: 400px ;
-width: 400px;
+    height: 350px ;
+width: 350px;
 }
 
 
@@ -142,8 +39,8 @@ width: 400px;
     border: 2px solid #025464;
 }
 #boisson5 {
-    height: 400px ;
-    width: 400px;
+    height: 350px ;
+    width: 350px;
     }
 
 
@@ -155,8 +52,8 @@ width: 400px;
     border: 2px solid #025464;
 }
 #boisson9 {
-    height: 400px ;
-    width: 400px;
+    height: 350px ;
+    width: 350px;
 }
 
 
