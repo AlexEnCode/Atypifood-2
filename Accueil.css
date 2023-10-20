@@ -1,13 +1,10 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-head {
-    color: #d8b4b4;
-}
 
-body{
+.body {
     font-family: 'Roboto';
 }
 
@@ -66,7 +63,7 @@ button {
 #recherche2 {
     display: block;
     background-color: white;
-    border: #E8AA42 solid 4px;
+    border: #946039 solid 4px;
     border-radius: 10px 0px 0px 10px;
     width: 494px;
     height: 40px;
@@ -79,8 +76,8 @@ button {
     background: none;
     border: none;
     padding-top: 5px;
-    background-color: #E8AA42;
-    border: #E8AA42 solid 4px;
+    background-color: #946039;
+    border: #946039 solid 4px;
     border-radius: 0px 10px 10px 0px;
     height: 50px;
 }
@@ -189,7 +186,7 @@ nav>ul li:hover .sous {
 #textTop {
     text-align: center;
     color: #ffffff;
-    
+
     align-self: center;
     line-height: 1.5;
     background-color: #025464;
@@ -211,7 +208,7 @@ nav>ul li:hover .sous {
     border: #025464 solid 15px;
     outline: 12px solid rgb(255, 255, 255);
     margin-top: 270px;
-  
+
     margin-bottom: 30px;
     align-items: center;
     vertical-align: middle;
@@ -320,7 +317,7 @@ h2 {
     width: 80%;
     height: 500px;
     justify-self: end;
-    background-color: #025464;
+    background-color: #468B97;
     border-radius: 16% 0% 0% 10% / 33% 10% 10% 0%;
     z-index: 1;
     display: flex;
@@ -332,7 +329,7 @@ h2 {
 #souscadre {
     width: 91%;
     height: 82%;
-    background-color: #468B97;
+    background-color: #025464;
     position: static;
     border-top: #ffffff 6px solid;
     border-left: #ffffff 6px solid;
@@ -410,13 +407,13 @@ h2 {
     max-width: max-content;
     border-radius: 10% 0% 0% 41% / 0% 10% 10% 31%;
     z-index: 0;
-
 }
 
 #photobouche2 {
     width: 100%;
     max-height: fit-content;
     z-index: 0;
+
 }
 
 #photobouche3 {
