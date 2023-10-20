@@ -11,7 +11,7 @@
     right:0;
     bottom:0;
     background: rgba(0, 0, 0, 0.2);
-    z-index: 98;
+    z-index: 0;
     /* une version de placement 
      display: flex;
     align-items: center;
@@ -21,10 +21,10 @@
 
 .popup-content{
     max-width: 6000px;
-    padding: 400px;
+    padding: 500px;
     width: 100%;
     box-sizing: border-box;
-    background: #d0181800;
+    background: #d01818;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,7 +41,6 @@
     padding: 10px 20px;
     border-radius: 5px;
     display:inline-block;
-
 }
 
 .popup-exit{
@@ -58,13 +57,25 @@ border-radius:5px;
 #popup-overlay.open{
     display:block !important;
 }
-
+#Yes{
+    background-image: url(doigtdhonneur.jpg);
+    padding: 1000px;
+    display: flex;
+    z-index: 1;
+    background-size: cover;
+    
+}
 
 
 /* fin popup */
+
+
+
+
+
 .fond {
-    z-index: 0;
-width: 1300px;
+    z-index: 8;
+    width: 1300px;
     height: 550px;
     background-color: #468B97;
     position: relative;
@@ -73,7 +84,7 @@ width: 1300px;
      border-radius: 50px;
 }
 #Poulpe-puree {
-    z-index: 1;
+    z-index: 9;
     height: 400px ;
     width: 400px;
     position: relative;
@@ -85,7 +96,7 @@ width: 1300px;
 }
 
 #Description {
-   
+   z-index: 9;
     position: relative;
     width: 400px;
     height: 200px;
@@ -97,11 +108,9 @@ width: 1300px;
 }
 
 #titre{
+    z-index: 9;
     position: relative;
     bottom: 210px;
     left: 700px;
     font-size: 50px;
 }
-
-
-

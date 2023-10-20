@@ -9,20 +9,16 @@
 <body>
     <button onclick="togglePopup()">activer le popup</button>
 
-    <div id="popup-overlay" >
-        <div class="popup-content">
-            <h2>ceci est notre premier popup</h2>
-            <p>Yes j'en n'ai deja mar</p>
-            <a href="#" class="popup-Link">S'inscrire</a>
-            <img src="Dossier-photo.html/Poulpe-puree.jpeg" alt="purée" id="Poulpe-puree">
-            
+    <div id="popup-overlay">
+        <div class="popup-content"   >
+            <div id="Yes" onclick="togglePopup()"></div>
+            <a href="#" class="popup-Link"></a>
+            <a href="javascript:void(0)" onclick="togglePopup()" class="popup-exit">fermer</a>
+            <div><img src="Dossier-photo.html/Poulpe-puree.jpeg" alt="purée" id="Poulpe-puree">
+                
             <div class="fond"> <p id="Description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam modi perferendis architecto voluptates dignissimos, non, suscipit eaque officia accusantium ut nobis odit repellat molestiae provident. Ullam laboriosam recusandae blanditiis. Molestiae!</p> <h2 id="titre">TITRE PLAT</h2>
             </div>
-            
-            <a href="javascript:void(0)" onclick="togglePopup()" class="popup-exit">fermer</a>
-            
-            
-            <img src="dossier-benamin/doigt d'honneur.jpg" onclick="togglePopup()" >
+            </div>
         </div>
 
 
