@@ -12,7 +12,6 @@
   }
   .modal-content {
     margin: 50px auto;
-    border: 1px solid #999;
     width: 60%;
   }
   h2,
@@ -31,13 +30,14 @@
     margin: 25px;
     box-shadow: 0 2px 5px #f5f5f5;
     background: #eee;
+    border-radius: 60px;
   }
   input,
   textarea {
     width: 90%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #1c87c9;
+
     outline: none;
   }
   .contact-form button {
@@ -89,4 +89,12 @@
 yes{
     display: flex;
     align-items: center;
+}
+
+#photoPlat{
+   width: 400px;
+   height: 400px;
+   border-radius: 60px;
+   margin-right: 20px;
+   border: 3px solid #025464  ;
 }
