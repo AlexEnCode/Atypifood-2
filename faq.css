@@ -420,10 +420,31 @@ p{
     background-color: #468b979c;
     width: 50%;
     padding: 2%;
+    
 }
 #faq{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid black 5px;
+    border-color: #025464;
+    border-radius: 20%;
+    background-color: #e8ab4227;
+    width: 80%;
+
 
 }
+a{
+    color: #ffffff;
+    background-color: #025464;
+    padding: 5px;
+    border-radius: 10%;
+}
+a:hover{
+    background-color: #468b97;
+}
+#containerfaq{
+    display: flex; 
+    justify-content: center;
+}
+
