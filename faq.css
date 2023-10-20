@@ -10,7 +10,7 @@ a {
 a,
 button {
     cursor: pointer;
-    cursor: url(curseur.png), pointer; 
+    cursor: url(Logo/curseur.png), pointer; 
      background: none;
     border: none;
 }
@@ -87,6 +87,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding-left: 0px;
+   
 }
 
 li {
@@ -120,6 +121,7 @@ nav a {
 nav a:hover {
     color: #468b97;
     border-bottom: 2px solid #025464;
+    background-color: #025464;
 }
 
 .sous {
@@ -159,11 +161,6 @@ nav>ul li:hover .sous {
     margin: 50px 20px;
     height: 1500px;
 }
-
-
-
-
-
 main {
     margin-top: 75px;
     margin-bottom: 50 px;
@@ -272,7 +269,7 @@ table {
 }
 
 #avisetoile:hover {
-    background-image: url(etoile2.png);
+    background-image: url(Logo/etoile2.png);
 }
 
 #avis {
@@ -429,8 +426,8 @@ p{
     border: solid black 5px;
     border-color: #025464;
     border-radius: 20%;
-    background-color: #e8ab4227;
-    width: 80%;
+    background-color:#e8ab4239;
+    width: 70%;
 
 
 }
@@ -446,5 +443,8 @@ a:hover{
 #containerfaq{
     display: flex; 
     justify-content: center;
+}
+#help{
+    font-size:x-large
 }
 
