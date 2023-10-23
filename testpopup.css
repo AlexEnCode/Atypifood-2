@@ -12,7 +12,6 @@
   }
   .modal-content {
     margin: 50px auto;
-    border: 1px solid #999;
     width: 60%;
   }
   h2,
@@ -23,7 +22,7 @@
   }
   span {
     color: #666;
-    display: block;
+    
     padding: 0 0 5px;
   }
   form {
@@ -31,29 +30,21 @@
     margin: 25px;
     box-shadow: 0 2px 5px #f5f5f5;
     background: #eee;
+    border-radius: 60px;
   }
-  input,
-  textarea {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #1c87c9;
-    outline: none;
-  }
-  .contact-form button {
+
+  .contact-form  {
     width: 100%;
     padding: 10px;
     border: none;
-    background: #1c87c9;
+    
     font-size: 16px;
     font-weight: 400;
     color: #fff;
     /* display: flex;
     align-items: center; */
   }
-  button:hover {
-    background: #2371a0;
-  }
+ 
   .close {
     color: #aaa;
     float: right;
@@ -88,5 +79,44 @@
 }
 yes{
     display: flex;
-    align-items: center;
+    
+
+  flex-direction: column;
+
+
+
+
+}
+
+#photoPlat{
+   width: 400px;
+   height: 400px;
+   border-radius: 60px;
+   margin-right: 20px;
+   border: 3px solid #025464  ;
+}
+
+.boutons-achat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 80px;
+
+}
+
+.prix{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+}
+
+#zonePhoto{
+  margin: 60px;
+  padding: 50px;
+}
+
+
+h2 {
+  margin-bottom: 60px;
 }
