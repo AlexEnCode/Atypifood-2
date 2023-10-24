@@ -2,10 +2,19 @@
     padding: 0px;
     margin: 0px;
 }
-
+body{
+    font-family: 'Roboto';
+}
 
 .body {
     font-family: 'Roboto';
+}
+
+header {
+    background-color: #F3EDEB;
+}
+body {
+    background-color: #F3EDEB;
 }
 
 a {
@@ -62,7 +71,7 @@ button {
 
 #recherche2 {
     display: block;
-    background-color: white;
+    background-color: #F3EDEB;
     border: #946039 solid 4px;
     border-radius: 10px 0px 0px 10px;
     width: 494px;
@@ -86,7 +95,7 @@ button {
 nav {
     width: 100%;
     margin: 0px;
-    background-color: white;
+    background-color: #F3EDEB;
     position: sticky;
     top: 0px;
 }
@@ -117,7 +126,7 @@ nav ul::after {
 nav a {
     display: block;
     text-decoration: none;
-    color: rgb(253, 253, 253);
+    color: #F3EDEB;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
 }
@@ -169,7 +178,7 @@ nav>ul li:hover .sous {
 
 #imageBoucheTop {
     display: block;
-    opacity: 50%;
+    opacity: 100%;
 
 }
 
@@ -178,21 +187,21 @@ nav>ul li:hover .sous {
     font-size: 30px;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(Dossier-photo.html/edible-insects2.jpg);
+    background:  url(Dossier-photo.html/edible-insects2\ co.jpg);
     background-size: cover;
     text-align: center;
 }
 
 #textTop {
     text-align: center;
-    color: #ffffff;
+    color:  #F3EDEB;
 
     align-self: center;
     line-height: 1.5;
     background-color: #025464;
     border: #468B97 solid 30px;
     border-radius: 30% 30% 30% 30% / 20% 20% 20% 20%;
-    outline: 12px solid rgb(255, 255, 255);
+    outline: 12px solid  #F3EDEB;
     height: 450px;
     width: 300px;
     justify-content: center;
@@ -206,7 +215,7 @@ nav>ul li:hover .sous {
     width: 300px;
     border-radius: 20%;
     border: #025464 solid 15px;
-    outline: 12px solid rgb(255, 255, 255);
+    outline: 12px solid  #F3EDEB;
     margin-top: 270px;
 
     margin-bottom: 30px;
@@ -227,7 +236,7 @@ nav>ul li:hover .sous {
     justify-self: end;
     width: 100px;
     background-color: #025464;
-    color: #ffffff;
+    color: #F3EDEB;
     border: 2px solid #468B97;
     border-radius: 10px;
     height: 50px;
@@ -331,8 +340,8 @@ h2 {
     height: 82%;
     background-color: #025464;
     position: static;
-    border-top: #ffffff 6px solid;
-    border-left: #ffffff 6px solid;
+    border-top: #F3EDEB 6px solid;
+    border-left:  #F3EDEB 6px solid;
     border-radius: 12% 0% 0% 10% / 33% 0% 10% 0%;
     z-index: 2;
     display: flex;
@@ -340,14 +349,14 @@ h2 {
 }
 
 #souscadre div {
-    color: #ffffff;
+    color:  #F3EDEB;
     text-align: center;
     font-size: 30px;
 }
 
 #textesouscadre {
     text-align: center;
-    color: #ffffff;
+    color:  #F3EDEB;
     font-size: 31px;
     margin: 30px;
     align-self: center;
@@ -370,7 +379,7 @@ h2 {
     height: 180px;
     border-radius: 100%;
     border: #025464 solid 9px;
-    outline: 7px solid rgb(255, 255, 255);
+    outline: 7px solid  #F3EDEB;
     margin-top: 70px;
     margin-left: 100px;
     margin-right: 100px;
@@ -384,7 +393,7 @@ h2 {
 #cadrephoto {
     height: 390px;
     justify-self: end;
-    background-color: #ffffff;
+    background-color:  #F3EDEB;
     width: 80%;
     font-weight: bold;
     z-index: 0;
@@ -482,7 +491,7 @@ h2 {
 }
 
 #questionpied1 {
-    color: white;
+    color:  #F3EDEB;
     font-size: 40px;
     margin-left: 15px;
     margin-top: 5px;
@@ -507,7 +516,7 @@ h2 {
 
 #avis span {
     border: solid #025464 8px;
-    background-color: white;
+    background-color:  #F3EDEB;
     width: 280px;
     height: 230px;
     margin-top: 20px;
@@ -527,7 +536,7 @@ footer {
     padding-left: 70px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: white;
+    color:  #F3EDEB;
     font-size: x-large;
     font-size: large;
     list-style-type: none;
@@ -545,8 +554,8 @@ footer {
 }
 
 #newsletter span {
-    border: solid #ffffff 8px;
-    background-color: white;
+    border: solid #F3EDEB 8px;
+    background-color:  #F3EDEB;
     width: 900px;
     height: 80px;
     margin-top: 50px;
@@ -556,13 +565,13 @@ footer {
 
 #abonnez {
     display: inline-block;
-    border: #ffffff;
-    background-color: white;
+    border:  #F3EDEB;
+    background-color:  #F3EDEB;
 }
 
 #abonnez span:hover {
     background-color: #025464;
-    color: white
+    color:  #F3EDEB
 }
 
 #boutonnewsletter span {
@@ -570,7 +579,7 @@ footer {
     align-items: center;
     justify-content: center;
     border: solid #025464 8px;
-    background-color: white;
+    background-color:  #F3EDEB;
     width: 750px;
     height: 50px;
     margin-left: 30px;
@@ -598,7 +607,7 @@ h4 {
 
 #reseauxsociaux {
 
-    border: solid white;
+    border: solid  #F3EDEB;
     color: #025464;
     width: 270px;
     height: 64px;
@@ -619,7 +628,7 @@ h4 {
 }
 
 #reseauxsociaux :hover {
-    background-color: white;
+    background-color:  #F3EDEB;
     border-radius: 12%;
 }
 
