@@ -1,5 +1,11 @@
-head {
-    color: #d8b4b4;
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.body {
+    font-family: 'Roboto';
 }
 
 a {
@@ -57,7 +63,7 @@ button {
 #recherche2 {
     display: block;
     background-color: white;
-    border: #E8AA42 solid 4px;
+    border: #946039 solid 4px;
     border-radius: 10px 0px 0px 10px;
     width: 494px;
     height: 40px;
@@ -70,8 +76,8 @@ button {
     background: none;
     border: none;
     padding-top: 5px;
-    background-color: #E8AA42;
-    border: #E8AA42 solid 4px;
+    background-color: #946039;
+    border: #946039 solid 4px;
     border-radius: 0px 10px 10px 0px;
     height: 50px;
 }
@@ -161,59 +167,75 @@ nav>ul li:hover .sous {
 
 
 
-#imageBoucheTop{
+#imageBoucheTop {
     display: block;
     opacity: 50%;
-    
+
 }
 
 #cadreTop {
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 30px;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)) ,  url(Dossier-photo.html/edible-insects2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(Dossier-photo.html/edible-insects2.jpg);
     background-size: cover;
-  }
+    text-align: center;
+}
 
 #textTop {
     text-align: center;
     color: #ffffff;
-    margin: 30px;
+
     align-self: center;
     line-height: 1.5;
     background-color: #025464;
     border: #468B97 solid 30px;
     border-radius: 30% 30% 30% 30% / 20% 20% 20% 20%;
-    outline: 15px solid rgb(255, 255, 255);
+    outline: 12px solid rgb(255, 255, 255);
     height: 450px;
     width: 300px;
-    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 220px;
-
+    margin-top: 180px;
 }
 
 #imageTop {
-    border-top: 250px;
+    border-top: 10px;
     height: 300px;
     width: 300px;
     border-radius: 20%;
     border: #025464 solid 15px;
-    outline: 15px solid rgb(255, 255, 255);
+    outline: 12px solid rgb(255, 255, 255);
     margin-top: 270px;
-    margin-left: 100px;
-    margin-right: 100px;
+
     margin-bottom: 30px;
     align-items: center;
     vertical-align: middle;
 }
 
 
+#MereBoutonSelection {
+    display: grid;
+}
 
-
-
+#boutonSelection {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    justify-self: end;
+    width: 100px;
+    background-color: #025464;
+    color: #ffffff;
+    border: 2px solid #468B97;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -295,7 +317,7 @@ h2 {
     width: 80%;
     height: 500px;
     justify-self: end;
-    background-color: #025464;
+    background-color: #468B97;
     border-radius: 16% 0% 0% 10% / 33% 10% 10% 0%;
     z-index: 1;
     display: flex;
@@ -307,7 +329,7 @@ h2 {
 #souscadre {
     width: 91%;
     height: 82%;
-    background-color: #468B97;
+    background-color: #025464;
     position: static;
     border-top: #ffffff 6px solid;
     border-left: #ffffff 6px solid;
@@ -385,13 +407,13 @@ h2 {
     max-width: max-content;
     border-radius: 10% 0% 0% 41% / 0% 10% 10% 31%;
     z-index: 0;
-
 }
 
 #photobouche2 {
     width: 100%;
     max-height: fit-content;
     z-index: 0;
+
 }
 
 #photobouche3 {
@@ -409,6 +431,7 @@ h2 {
     color: #468B97;
     text-align: center;
     border-style: none;
+    margin-bottom: 50px;
 }
 
 #logo1,

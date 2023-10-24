@@ -1,6 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 head {
     color: #d8b4b4;
 }
+
+
+
+
+
+
+body{
+    font-family: 'Roboto';
+}
+
+
 
 a {
     text-decoration: none;
