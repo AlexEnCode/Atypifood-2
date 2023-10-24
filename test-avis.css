@@ -1,7 +1,3 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
 head {
     color: #d8b4b4;
 }
@@ -333,9 +329,4 @@ h4 {
 #Marianne {
     width: 400px;
     display: flex;
-}
-
-#titreFaq {
- 
-    
 }
