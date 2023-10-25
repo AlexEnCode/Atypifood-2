@@ -1,51 +1,49 @@
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire d'inscription'</title>
-    <link rel="stylesheet" href="connectionidentification.css">
-    <link rel="stylesheet" href="mon profil.css">
-
-
-
+    <title>Page des Plats</title>
+    <link rel="stylesheet" href="Plat.css">
 </head>
 
-
-<header>
-    <form action="Le tableau.html" method="get"> 
-        <section id="entete">
-            <button> <img src="Logo/logo fond blanc.png" alt="ATYPIFOOD" id="logofondblanc"></button>
-        </section>
-        <br>
-        <section id="boutonentete">
-
-            <div>
-                <a href="mon profil.html" target="">
-                    <img id="profil" src="Logo/profil.png" alt="profil"></a>
-
-            </div>
-
-            <span id="recherche">
-                <form id="barrecherche">
-                    <div> <input id=recherche2 type="text" name="text" class="search" placeholder=" "> </div>
-                    <div> <button id="boutonrecherche"><img src="logo/loupeblanche2.png" alt=""></button> </div>
-                </form>
-            </span>
-
-            <div>
-                <a href="panier.html" target="">
-                    <img id="panier" src="Logo/panier.png" alt="panier"></a>
-            </div>
-</form>
-
+<body>
+    
+    <header>
+        <form action="Accueil.html" method="get">
+            <section id="entete">
+                <button> <img src="Logo/logo poulpe.png" alt="Accueil.html" id="logofondblanc"></button>
+            </section>
+            <br>
+            <section id="boutonentete">
+    
+                <div>
+                    <a href="mon profil.html" target="">
+                    <img id="profil" src="Logo/profil.png" 
+                    alt="profil"></a>
+                    
+                </div>
+    
+                <span id="recherche">
+                    <form id="barrecherche">
+                        <div> <input id=recherche2 type="text" name="text" class="search" placeholder=" "> </div>
+                        <div> <button id="boutonrecherche"><img src="logo/loupeblanche2.png" alt=""></button> </div>
+                    </form>
+                </span>
+    
+                <div>
+                    <a href="panier.html" target="">
+                    <img id="panier" src="Logo/panier.png" 
+                    alt="panier"></a>
+                    
+                </div>
+        </form>
+    
         </section>
         <nav>
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li class="deroulant"><a href="#" Border>Plats</a>
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li class="deroulant"><a href="Plat.html" Border>Plats</a>
                     <ul class="sous">
                         <li><a href="#">Plat1</a></li>
                         <li><a href="#">plat2</a></li>
@@ -55,14 +53,14 @@
                         <li><a href="#">Plat6</a></li>
                     </ul>
                 </li>
-                <li class="deroulant" Border><a href="#">Desserts</a>
+                <li class="deroulant" Border><a href="Dessert.html">Desserts</a>
                     <ul class="sous">
                         <li><a href="#">Dessert1</a></li>
                         <li><a href="#">Dessert2</a></li>
                         <li><a href="#">Dessert3</a></li>
                     </ul>
                 </li>
-                <li class="deroulant"><a href="#" Border>Boissons</a>
+                <li class="deroulant"><a href="Boisson.html" Border>Boissons</a>
                     <ul class="sous">
                         <li><a href="#">Boisson1</a></li>
                         <li><a href="#">Boisson2</a></li>
@@ -76,79 +74,52 @@
             </ul>
         </nav>
         </section>
-</header>
-
-
-
-
-<body>
-    <main>
-        <br><br>
-        <h1> Creer un compte</h1> <!-- Titre  -->
-
-
-
-        <form action="Le tableau.html" method="get">
-            <label for="formulaire">
-
-                <br><br><br>
-                <label for="votre nom*:"> votre nom: <br>
-                    <input type="text">
-
-                </label> <br>
-                <label for="votre prenom*:"> Adresse mail ou numéro de téléphone: <br>
-                    <input type="text">
-                </label> <br>
-
-                <label for="mail:"> mot de passe: <br>
-                    <input type="text">
-                </label> <br>
-
-                <label for="mail:"> confirmer le mot de passe: <br>
-                    <input type="text">
-                </label> <br>
-
-                <br><br>
-
-                En créant un compte, vous acceptez les conditions générales <br>
-                de vente de Atypifood. Veuillez consulter notre notice Protection <br>
-                de vos Informations Personnelles, notre notice Cookies et notre <br>
-                notice Annonces publicitaires basées sur vos centres d’intérêt. <br><br>
-                Acceptation des Conditions Générales de Ventes (CGV) :
-                <br> <br>
-            </label>
-            <label for="radio">
-                <input type="radio" name="accepte"> J'accepte
-                <input type="radio" name="accepte"> Je refuse
-            </label>
-            <br><br>
-            <label id="se-connecter" for="submit">
-                <input type="submit" value="Créer son compte">
-            </label>
-
-
-            <br>
-            </label>
-        </form>
-        <img src="logo/logo fond blanc.png" alt="ATYPIFOOD" id="logofondblancpetit">
-
-    </main>
-    <br><br><br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </header>
+    
+    <br>
+    <div id="desert">
+        
+        <img id="i1" src="" alt="" id="Plat1"width="300" height="300"/>
+    
+        <img id="i2" src="" alt="" id="plat2"width="300" height="300"/>
+    
+        <img id="i3" src="" alt="" id="Plat3"width="300" height="300"/>
+    
+        <img id="i4" src="" alt="" id="Plat4"width="300" height="300"/>
+    
+    </div> <br>
+    
+    
+    <div id="desert2">
+       
+        <img id="i5" src="" alt="" id="Plat5"width="300" height="300"/>
+    
+        <img id="i6" src="" alt="" id="Plat6"width="300" height="300"/>
+    
+        <img id="i7" src="" alt="" id=""width="300" height="300"/>
+    
+        <img id="i8" src="" alt="" id=""width="300" height="300"/>
+    
+    </div><br>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <footer>
-
+    
+    
         <section id="pied1">
             <br><br>
             <section id="questionpied1">
@@ -166,7 +137,7 @@
                 <span></span>
                 <span></span>
             </section>
-
+    
             <section id="newsletter">
                 <span>
                     <section id="boutonnewsletter">
@@ -179,10 +150,10 @@
             </section>
             <br>
         </section>
-
+    
         <section id="pied2">
-
-
+    
+    
             <div>
                 <section>
                     <h4>Atipyfood</h4>
@@ -196,7 +167,7 @@
                 </ul>
                 <section>atypifood@gmail.com <br> </section>
             </div>
-
+    
             <div>
                 <h4>Les services Atipyfood</h4>
                 <ul>
@@ -240,7 +211,9 @@
             <div id="Marianne"><img src="logo/footer_gabarit.png" alt="mange et bouge"></div>
         </section>
     </footer>
+    
+    </body>
+
 
 </body>
-
 </html>
