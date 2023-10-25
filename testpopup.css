@@ -18,7 +18,7 @@
   p {
     margin: 0 0 20px;
     font-weight: 400;
-    color: #999;
+    color: #000000;
   }
   span {
     color: #666;
@@ -99,8 +99,10 @@ yes{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
-  padding: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 70px;
 
 }
 
@@ -117,7 +119,10 @@ yes{
 }
 
 
-h2 {
-  margin-bottom: 60px;
+.espace {
+  margin-bottom: 50px;
+  margin-left: 50px;
+  font-weight: bolder;
+  
 }
 
