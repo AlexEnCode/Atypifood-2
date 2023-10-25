@@ -64,7 +64,7 @@ position: flex;
 #recherche2 {
     display: block;
     background-color: white;
-    border: #E8AA42 solid 4px;
+    border: #946039 solid 4px;
     border-radius: 10px 0px 0px 10px;
     width: 494px;
     height: 40px;
@@ -77,8 +77,8 @@ position: flex;
     background: none;
     border: none;
     padding-top: 5px;
-    background-color: #E8AA42;
-    border: #E8AA42 solid 4px;
+    background-color: #946039;
+    border: #946039 solid 4px;
     border-radius: 0px 10px 10px 0px;
     height: 50px;
 }
@@ -389,7 +389,7 @@ a {
 }
 
 #commander {
-    background-color: #ffcb14;
+    background-color: #946039;
     border-radius: 5px;
     font-size: 17px;
     padding: 16px 18px;
@@ -399,7 +399,7 @@ a {
 }
 
 #plus {
-    background-color: #ffcb14;
+    background-color: #946039;
     border-radius: 5px;
     font-size: 17px;
     font-weight: 700;
@@ -411,7 +411,7 @@ a {
 }
 
 #moins {
-    background-color: #ffcb14;
+    background-color: #946039;
     border-radius: 5px;
     font-weight: 700;
     font-size: 17px;
@@ -420,7 +420,7 @@ a {
 }
 
 #supprimer {
-    background-color: #ffcb14;
+    background-color: #946039;
     border-radius: 5px;
     font-size: 17px;
     padding: 6px 10px;

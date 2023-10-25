@@ -63,7 +63,7 @@ position: flex;
 #recherche2 {
     display: block;
     background-color: white;
-    border: #E8AA42 solid 4px;
+    border: #946039 solid 4px;
     border-radius: 10px 0px 0px 10px;
     width: 494px;
     height: 40px;
@@ -76,8 +76,8 @@ position: flex;
     background: none;
     border: none;
     padding-top: 5px;
-    background-color: #E8AA42;
-    border: #E8AA42 solid 4px;
+    background-color: #946039;
+    border: #946039 solid 4px;
     border-radius: 0px 10px 10px 0px;
     height: 50px;
 }
@@ -197,7 +197,7 @@ input[type='radio']:checked:after {
     top: 0px;
     left: 0px;
     position: relative;
-    background-color: #E8AA42;
+    background-color: #946039;
     content: '';
     display: inline-block;
     visibility: visible;
@@ -231,7 +231,7 @@ img {
 
 #se-connecter input {
     width: 100px;
-    background-color: #E8AA42;
+    background-color: #946039;
     color: #025464;
     border: 2px solid #025464;
     border-radius:10px;
