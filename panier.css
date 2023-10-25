@@ -387,6 +387,21 @@ a {
     
     
 }
+#boisson1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
+#boisson1 {
+    border: 2px solid #025464;
+}
+#boisson1 {
+    height: 300px ;
+width: 300px;
+display: flex;
+}
+
+
+
 
 #commander {
     background-color: #946039;
