@@ -1,7 +1,9 @@
 head {
-    color: #d8b4b4;
+    color: #F3EDEB;
 }
-
+body{
+    font-family: 'Roboto';
+}
 a {
     text-decoration: none;
     color: none
@@ -10,7 +12,7 @@ a {
 a,
 button {
     cursor: pointer;
-    cursor: url(Logo/curseur.png), pointer; 
+    cursor: url(curseur.png), pointer; 
      background: none;
     border: none;
 }
@@ -55,8 +57,8 @@ position: flex;
 
 #recherche2 {
     display: block;
-    background-color: white;
-    border: #E8AA42 solid 4px;
+    background-color:#F3EDEB;
+    border: #946039 solid 4px;
     border-radius: 10px 0px 0px 10px;
     width: 494px;
     height: 40px;
@@ -69,8 +71,8 @@ position: flex;
     background: none;
     border: none;
     padding-top: 5px;
-    background-color: #E8AA42;
-    border: #E8AA42 solid 4px;
+    background-color: #946039;
+    border: #946039 solid 4px;
     border-radius: 0px 10px 10px 0px;
     height: 50px;
 }
@@ -79,7 +81,7 @@ position: flex;
 nav {
     width: 100%;
     margin: 0px;
-    background-color: white;
+    background-color: #F3EDEB;
     position: sticky;
     top: 0px;
 }
@@ -87,7 +89,6 @@ nav {
 nav ul {
     list-style-type: none;
     padding-left: 0px;
-   
 }
 
 li {
@@ -113,7 +114,7 @@ nav ul::after {
 nav a {
     display: block;
     text-decoration: none;
-    color: rgb(253, 253, 253);
+    color: #F3EDEB;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
 }
@@ -121,7 +122,6 @@ nav a {
 nav a:hover {
     color: #468b97;
     border-bottom: 2px solid #025464;
-    background-color: #025464;
 }
 
 .sous {
@@ -161,100 +161,28 @@ nav>ul li:hover .sous {
     margin: 50px 20px;
     height: 1500px;
 }
-main {
-    margin-top: 75px;
-    margin-bottom: 50 px;
-    border: 6px solid #025464;
-    padding: 5px 10px;
-    padding-left: 1px;
-    padding-right: 1px;
-    border-radius: 10%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
+
 
 h1,
 h3 {
     text-align: center;
 }
 
-label,
-input,
-select {
-    margin-bottom: 15px;
-}
 
 
 
-input[type='radio']:checked:after {
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    top: 0px;
-    left: 0px;
-    position: relative;
-    background-color: #E8AA42;
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid #025464;
-}
 
-main {
-    width: 30%;
-    margin: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    color: #468B97;
-    text-decoration: underline #468B97 9% 51 8px;
-    text-underline-offset: 8px;
-    margin-top: 100px;
-}
 
-h1 {
-    text-align: center;
-    color: #025464;
-    text-decoration: underline #025464 9% 51 4px;
-    text-underline-offset: 8px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
 
-img {
-    width: 100%;
-    height: auto;
-}
 
-#se-connecter input {
-    width: 100px;
-    background-color: #E8AA42;
-    color: #025464;
-    border: 2px solid #025464;
-    border-radius:10px;
-    height: 35px;
-    width: 200px;
-    font-size: 18px;
-}
-
-table {
-    border: 15px solid #025464;
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 50px;
-    background-color: #025464;
-}
-
-#logofondblancpetit {
-    width: 30%;
-    padding: 20px;
-}
 
 #pied1 {
     background-color: #468B97;
 }
 
 #questionpied1 {
-    color: white;
+    color: #F3EDEB;
     font-size: 40px;
     margin-left: 15px;
     margin-top: 5px;
@@ -269,7 +197,7 @@ table {
 }
 
 #avisetoile:hover {
-    background-image: url(Logo/etoile2.png);
+    background-image: url(etoile2.png);
 }
 
 #avis {
@@ -279,12 +207,17 @@ table {
 
 #avis span {
     border: solid #025464 8px;
-    background-color: white;
+    background-color: #F3EDEB;
     width: 280px;
     height: 230px;
     margin-top: 20px;
     margin-bottom: 20x;
     border-radius: 22%;
+}
+
+footer {
+background: none;
+display: block;
 }
 
 #pied2 {
@@ -294,7 +227,7 @@ table {
     padding-left: 70px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: white;
+    color: #F3EDEB;
     font-size: x-large;
     font-size: large;
     list-style-type: none;
@@ -312,8 +245,8 @@ table {
 }
 
 #newsletter span {
-    border: solid #ffffff 8px;
-    background-color: white;
+    border: solid #F3EDEB 8px;
+    background-color: #F3EDEB;
     width: 900px;
     height: 80px;
     margin-top: 50px;
@@ -323,13 +256,13 @@ table {
 
 #abonnez {
     display: inline-block;
-    border: #ffffff;
-    background-color: white;
+    border: #F3EDEB;
+    background-color: #F3EDEB;
 }
 
 #abonnez span:hover {
     background-color: #025464;
-    color: white
+    color: #F3EDEB
 }
 
 #boutonnewsletter span {
@@ -337,7 +270,7 @@ table {
     align-items: center;
     justify-content: center;
     border: solid #025464 8px;
-    background-color: white;
+    background-color: #F3EDEB;
     width: 750px;
     height: 50px;
     margin-left: 30px;
@@ -365,7 +298,7 @@ h4 {
 
 #reseauxsociaux {
 
-    border: solid white;
+    border: solid #F3EDEB;
     color: #025464;
     width: 270px;
     height: 64px;
@@ -386,7 +319,7 @@ h4 {
 }
 
 #reseauxsociaux :hover {
-    background-color: white;
+    background-color: #F3EDEB;
     border-radius: 12%;
 }
 
@@ -399,6 +332,8 @@ h4 {
     width: 400px;
     display: flex;
 }
+
+/* debut faq */
 h1{
     color: #025464;
 }
@@ -431,13 +366,13 @@ p{
 
 
 }
-a{
+.retourenhaut{
     color: #ffffff;
     background-color: #025464;
     padding: 5px;
     border-radius: 10%;
 }
-a:hover{
+.retourenhaut:hover{
     background-color: #468b97;
 }
 #containerfaq{
@@ -450,4 +385,9 @@ a:hover{
 #boutonfaq{
     color:#FFF;
 }
+
+
+
+
+/* fin faq  */
 
