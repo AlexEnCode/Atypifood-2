@@ -25,14 +25,13 @@
     
     padding: 0 0 5px;
   }
-  form {
-    padding: 25px;
-    margin: 25px;
-    box-shadow: 0 2px 5px #f5f5f5;
-    background: #eee;
-    border-radius: 60px;
-  }
-
+  .fenetre{
+  padding: 25px;
+  margin: 25px;
+  box-shadow: 0 2px 5px #f5f5f5;
+  background: #eee;
+  border-radius: 60px;
+}
   .contact-form  {
     width: 100%;
     padding: 10px;
@@ -114,9 +113,11 @@ yes{
 #zonePhoto{
   margin: 60px;
   padding: 50px;
+
 }
 
 
 h2 {
   margin-bottom: 60px;
 }
+

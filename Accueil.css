@@ -258,7 +258,12 @@ nav>ul li:hover .sous {
 
 
 
-
+.jeCorige{
+    text-align: center;
+    font-size: 60px;
+    color: #468B97;
+    margin-bottom: 100px;
+}
 
 
 h1,
@@ -266,12 +271,7 @@ h3 {
     text-align: center;
 }
 
-h2 {
-    text-align: center;
-    font-size: 60px;
-    color: #468B97;
-    margin-bottom: 100px;
-}
+
 
 
 .element {
