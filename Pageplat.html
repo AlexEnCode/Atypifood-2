@@ -6,105 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="teteetpied.css">
     <link rel="stylesheet" href="Cadre-image.css">
-    <title>Plats</title>
+    <link rel="stylesheet" href="testpopup.css">
+    <title>Nos Plats</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="testpopup.css">
 
-<header>
-    <form action="Accueil.html" method="get">
+    <header id="header">
+      <form action="Accueil.html" method="get">
         <section id="entete">
-            <button> <img src="Logo/logo poulpe.png" alt="ATYPIFOOD" id="logofondblanc"></button>
+          <button> <img src="Logo/logo poulpe.png" alt="ATYPIFOOD" id="logofondblanc"></button>
         </section>
         <br>
         <section id="boutonentete">
+  
+          <div>
+            <a href="mon profil.html" target="">
+              <img id="profil" src="Logo/profil.png" alt="profil"></a>
+  
+          </div>
+  
+          <span id="recherche">
+            <form id="barrecherche">
+              <div> <input id=recherche2 type="text" name="text" class="search" placeholder=" "> </div>
+              <div> <button id="boutonrecherche"><img src="logo/loupeblanche2.png" alt=""></button> </div>
+            </form>
+          </span>
+  
+          <div>
+            <a href="panier.html" target="">
+              <img id="panier" src="Logo/panier.png" alt="panier"></a>
+  
+          </div>
+      </form>
+  
+      </section>
 
-            <div>
-                <a href="mon profil.html" target="">
-                <img id="profil" src="Logo/profil.png" 
-                alt="profil"></a>
-                
-            </div>
-
-            <span id="recherche">
-                <form id="barrecherche">
-                    <div> <input id=recherche2 type="text" name="text" class="search" placeholder=" "> </div>
-                    <div> <button id="boutonrecherche"><img src="logo/loupeblanche2.png" alt=""></button> </div>
-                </form>
-            </span>
-
-            <div>
-                <a href="panier.html" target="">
-                <img id="panier" src="Logo/panier.png" 
-                alt="panier"></a>
-                
-            </div>
-    </form>
-
-    </section>
     <!-- Debut deroulant -->
-    <nav>
-      <ul>
-        <li><a href="Accueil.html">Accueil</a></li>
-        <li class="deroulant"><a href="Pageplat.html" Border>Plats</a>
-          <ul class="sous">
-            <li class="button" data-modal="modalTwo1"><a href="#">Soupe de blatte aux asperges </a></li>
-            <li class="button" data-modal="modalTwo2"><a href="#">Curry larvaires</a></li>
-            <li class="button" data-modal="modalTwo3"><a href="#">Poulpe Frit fleuris</a></li>
-            <li class="button" data-modal="modalTwo4"><a href="#">Etoile de mais croquante</a></li>
-            <li class="button" data-modal="modalTwo5"><a href="#">Nouilles Croquantes aux Mille-Pattes : Épices de l'Exotisme</a></li>
-            <li class="button" data-modal="modalTwo6"><a href="#">Pâtes Printanières aux Légumes Croquants et vers Croustillants</a></li>
-            <li class="button" data-modal="modalTwo7"><a href="#">Polenta aux Saveurs Terre et Jardin, Agrémentée de Larves Grillées</a></li>
-            <li class="button" data-modal="modalTwo8"><a href="#">Papillons croquant</a></li>
-            <li class="button" data-modal="modalTwo9"><a href="#">Ailes de Chauve-Souris Croustillantes à l'Exotisme Asiatique</a></li>
-            <li class="button" data-modal="modalTwo10"><a href="#">Pangolin Magique : L'Étonnante Illusion Culinaire</a></li>
-            <li class="button" data-modal="modalTwo11"><a href="#">Crème de Légumes aux Notes d'Insectes Croustillants</a></li>
-            <li class="button" data-modal="modalTwo12"><a href="#">Calamars Croustillants aux Tentacules d'Or, Parure Florale et Éclats de Fruit</a></li>
-          </ul>
-        </li>
-        <li class="deroulant" Border><a href="Pagedessert.html">Desserts</a>
-          <ul class="sous">
-            <li class="button" data-modal="modalTwo13"><a href="#">Cookiesect </a></li>
-            <li class="button" data-modal="modalTwo14"><a href="#">Tiramisu croquant</a></li>
-            <li class="button" data-modal="modalTwo15"><a href="#">Gateau Coco</a></li>
-            <li class="button" data-modal="modalTwo16"><a href="#">Gateau grillons</a></li>
-            <li class="button" data-modal="modalTwo17"><a href="#">Gateau au fruit croquant</a></li>
-            <li class="button" data-modal="modalTwo18"><a href="#">Carre au insect</a></li>
-            <li class="button" data-modal="modalTwo19"><a href="#">Insect prince</a></li>
-            <li class="button" data-modal="modalTwo20"><a href="#"> Gateau surprise</a></li>
-            <li class="button" data-modal="modalTwo21"><a href="#">Boite mystere</a></li>
-            <li class="button" data-modal="modalTwo22"><a href="#">Marbre croquant</a></li>
-            <li class="button" data-modal="modalTwo23"><a href="#">Gateau double choco et insects</a></li>
-            <li class="button" data-modal="modalTwo24"><a href="#">Gateau biscuitsect</a></li>
-          </ul>
-        </li>
-        <li class="deroulant"><a href="Pageboissons.html" Border>Boissons</a>
-          <ul class="sous">
-            <li class="button" data-modal="modalTwo25"><a href="#">Posoin frog  </a></li>
-            <li class="button" data-modal="modalTwo26"><a href="#">Jus larvaires</a></li>
-            <li class="button" data-modal="modalTwo27"><a href="#">Drink tarentula</a></li>
-            <li class="button" data-modal="modalTwo28"><a href="#">Boisson carapace</a></li>
-            <li class="button" data-modal="modalTwo29"><a href="#">Dragonfiles beer</a></li>
-            <li class="button" data-modal="modalTwo30"><a href="#">Bierre a l'huitre</a></li>
-            <li class="button" data-modal="modalTwo31"><a href="#">Sirop rempant</a></li>
-            <li class="button" data-modal="modalTwo32"><a href="#">Cocktail enegisant</a></li>
-            <li class="button" data-modal="modalTwo33"><a href="#">Booster volant</a></li>
-            <li class="button" data-modal="modalTwo34"><a href="#">Crotal juice</a></li>
-            <li class="button" data-modal="modalTwo35"><a href="#">Eau de glacier</a></li>
-            <li class="button" data-modal="modalTwo36"><a href="#">MOOOOOOOOOOOOOONSTER</a></li>
-          </ul>
-        </li>
-       
-            <li><a href="a propos.html">A propos</a></li>
-        </ul> 
-<!-- Fin menu deroulant -->
+ <nav>
+  <ul>
+    <li><a href="Accueil.html">Accueil</a></li>
+    <li class="deroulant"><a href="Pageplat.html" Border>Plats</a>
+      <ul class="sous">
+        <li class="button" data-modal="modalTwo1"><a href="#">Soupe de blatte aux asperges</a></li>
+        <li class="button" data-modal="modalTwo2"><a href="#">Curry larvaires</a></li>
+        <li class="button" data-modal="modalTwo3"><a href="#">Poulpe frit fleuris</a></li>
+        <li class="button" data-modal="modalTwo4"><a href="#">Étoile de maïs croquante</a></li>
+        <li class="button" data-modal="modalTwo5"><a href="#">Nouilles croquantes aux mille-pattes : épices de l'exotisme</a></li>
+        <li class="button" data-modal="modalTwo6"><a href="#">Pâtes printanières aux légumes croquants et vers croustillants</a></li>
+        <li class="button" data-modal="modalTwo7"><a href="#">Polenta aux saveurs terre et jardin, agrémentée de larves grillées</a></li>
+        <li class="button" data-modal="modalTwo8"><a href="#">Papillons croquants</a></li>
+        <li class="button" data-modal="modalTwo9"><a href="#">Ailes de chauve-Souris croustillantes à l'exotisme asiatique</a></li>
+        <li class="button" data-modal="modalTwo10"><a href="#">Pangolin magique : L'étonnante illusion culinaire</a></li>
+        <li class="button" data-modal="modalTwo11"><a href="#">Crème de légumes aux notes d'insectes croustillants</a></li>
+        <li class="button" data-modal="modalTwo12"><a href="#">Calamars croustillants aux tentacules d'or, parure florale et éclats de fruits</a></li>
+      </ul>
+    </li>
+    <li class="deroulant" Border><a href="Pagedessert.html">Desserts</a>
+      <ul class="sous">
+        <li class="button" data-modal="modalTwo13"><a href="#">Cookiesect </a></li>
+        <li class="button" data-modal="modalTwo14"><a href="#">Tiramisu croquant</a></li>
+        <li class="button" data-modal="modalTwo15"><a href="#">Gâteau Coco</a></li>
+        <li class="button" data-modal="modalTwo16"><a href="#">Gâteau grillons</a></li>
+        <li class="button" data-modal="modalTwo17"><a href="#">Gâteau aux fruits croquant</a></li>
+        <li class="button" data-modal="modalTwo18"><a href="#">Carre aux insectes</a></li>
+        <li class="button" data-modal="modalTwo19"><a href="#">Insecte prince</a></li>
+        <li class="button" data-modal="modalTwo20"><a href="#">Gâteau surprise</a></li>
+        <li class="button" data-modal="modalTwo21"><a href="#">Boîte mystère</a></li>
+        <li class="button" data-modal="modalTwo22"><a href="#">Marbre croquant</a></li>
+        <li class="button" data-modal="modalTwo23"><a href="#">Gâteau double choco et insectes</a></li>
+        <li class="button" data-modal="modalTwo24"><a href="#">Gâteau biscuitsect</a></li>
+      </ul>
+    </li>
+    <li class="deroulant"><a href="Pageboissons.html" Border>Boissons</a>
+      <ul class="sous">
+        <li class="button" data-modal="modalTwo25"><a href="#">Poison frog  </a></li>
+        <li class="button" data-modal="modalTwo26"><a href="#">Jus larvaires</a></li>
+        <li class="button" data-modal="modalTwo27"><a href="#">Drink tarentula</a></li>
+        <li class="button" data-modal="modalTwo28"><a href="#">Boisson carapace</a></li>
+        <li class="button" data-modal="modalTwo29"><a href="#">Dragonfiles beer</a></li>
+        <li class="button" data-modal="modalTwo30"><a href="#">Bière a la huitre</a></li>
+        <li class="button" data-modal="modalTwo31"><a href="#">Sirop rampant</a></li>
+        <li class="button" data-modal="modalTwo32"><a href="#">Cocktail énergisant</a></li>
+        <li class="button" data-modal="modalTwo33"><a href="#">Booster volant</a></li>
+        <li class="button" data-modal="modalTwo34"><a href="#">Crotal juice</a></li>
+        <li class="button" data-modal="modalTwo35"><a href="#">Eau de glacier</a></li>
+        <li class="button" data-modal="modalTwo36"><a href="#">MOOOOOOOOOOOOOONSTER</a></li>
+      </ul>
+    </li>
+
+    <li><a href="a propos.html">À propos</a></li>
+  </ul>
+          <!-- Fin menu deroulant -->
+  </header>
 
         <br><br>
         <div id="boissonA">
 
             <div>
-                    <img id="boisson1" src="Dossier-photo.html/Plat 1.jpg" class="button" data-modal="modalTwo" >
+                    <img id="boisson1" src="Dossier-photo.html/Plat 1.jpg" class="button" data-modal="modalTwo1" >
 
             </div>
 
@@ -166,243 +167,857 @@
 
         </div>
 
-        <div id="modalTwo1" class="modal">
-            <div class="modal-content">
-              <div class="contact-form">
-                <span class="close"></span>
-                <form action="/">
-                  <div><img src="Dossier-photo.html/Plat 1.jpg" class="zonePhoto" id="photoPlat"></div>
-                  <br>
-                  <br>
-                  <div id="yes"><h2 class="zonePhoto">aknfzjfnzjlfnzljfdnjlfnjf zjkfzjkfnz</h2>
-                  
-      
-                  <span class="zonePhoto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda iusto, consequatur nobis soluta architecto non placeat dolore laudantium sed id nam aperiam cumque repellendus esse inventore accusantium iste qui enim eos incidunt deleniti voluptatum. Tempora itaque eaque at corrupti error voluptatibus nesciunt dolore incidunt accusamus obcaecati, voluptate quaerat excepturi aut! Quasi repellendus quisquam laborum provident veniam obcaecati exercitationem odit. Ad blanditiis nesciunt est error, optio voluptatem corporis perspiciatis quibusdam sed quas quidem totam, ex accusantium explicabo aspernatur ipsam obcaecati qui repellat accusamus provident nisi molestias eius autem. A mollitia eligendi amet minus rerum tenetur aliquam, illo corrupti dolor. At, dolores.</span></div>
-                 
-                  
-                </form>
-              </div>
-            </div>
-
-
+  <!-- debut popup  -->
+  <div id="modalTwo1" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Plat 1.jpg" class="zonePhoto" id="photoPlat">
           </div>
-
-          <div id="modalTwo2" class="modal">
-            <div class="modal-content">
-              <div class="contact-form">
-                <span class="close"></span>
-                <form action="/">
-                  <div><img src="Dossier-photo.html/Plat 2.jpg" class="zonePhoto" id="photoPlat"></div>
-                  <br>
-                  <br>
-                  <div id="yes"><h2 class="zonePhoto">aknfzjfnzjlfnzljfdnjlfnjf zjkfzjkfnz</h2>
-                  
-      
-                  <span class="zonePhoto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda iusto, consequatur nobis soluta architecto non placeat dolore laudantium sed id nam aperiam cumque repellendus esse inventore accusantium iste qui enim eos incidunt deleniti voluptatum. Tempora itaque eaque at corrupti error voluptatibus nesciunt dolore incidunt accusamus obcaecati, voluptate quaerat excepturi aut! Quasi repellendus quisquam laborum provident veniam obcaecati exercitationem odit. Ad blanditiis nesciunt est error, optio voluptatem corporis perspiciatis quibusdam sed quas quidem totam, ex accusantium explicabo aspernatur ipsam obcaecati qui repellat accusamus provident nisi molestias eius autem. A mollitia eligendi amet minus rerum tenetur aliquam, illo corrupti dolor. At, dolores.</span></div>
-                 
-                  
-                </form>
-              </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Soupe de blatte aux asperges</h2>
+            <span class="zonePhoto">Crème d'asperge printanière aux accents inattendu de blattes croustillantes</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
             </div>
           </div>
-
-
-          <div id="modalTwo3" class="modal">
-            <div class="modal-content">
-              <div class="contact-form">
-                <span class="close"></span>
-                <form action="/">
-                  <div><img src="Dossier-photo.html/Plat 3.jpg" class="zonePhoto" id="photoPlat"></div>
-                  <br>
-                  <br>
-                  <div id="yes"><h2 class="zonePhoto">aknfzjfnzjlfnzljfdnjlfnjf zjkfzjkfnz</h2>
-                  
-      
-                  <span class="zonePhoto">descrption 2</span></div>
-                 
-                  
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-
-
-    <div id="modalTwo4" class="modal">
-      <div class="modal-content">
-        <div class="contact-form">
-          <span class="close"></span>
-          <form action="/">
-            <div><img src="Dossier-photo.html/Plat 4.jpg" class="zonePhoto" id="photoPlat"></div>
-            <br>
-            <br>
-            <div id="yes"><h2 class="zonePhoto">aknfzjfnzjlfnzljfdnjlfnjf zjkfzjkfnz</h2>
-            
-
-            <span class="zonePhoto">descrption 2</span></div>
-           
-            
-          </form>
-        </div>
+        </form>
       </div>
     </div>
+  </div>
 
-
-    <div id="modalTwo5" class="modal">
-        <div class="modal-content">
-          <div class="contact-form">
-            <span class="close"></span>
-            <form action="/">
-              <div><img src="Dossier-photo.html/Plat 5.jpg" class="zonePhoto" id="photoPlat"></div>
-              <br>
-              <br>
-              <div id="yes"><h2 class="zonePhoto">aknfzjfnzjlfnzljfdnjlfnjf zjkfzjkfnz</h2>
-              
-  
-              <span class="zonePhoto">descrption 2</span></div>
-             
-              
-            </form>
+  <div id="modalTwo2" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Plat 2.jpg" class="zonePhoto" id="photoPlat">
           </div>
-        </div>
-      </div>
-
-
-      <div id="modalTwo6" class="modal">
-        <div class="modal-content">
-          <div class="contact-form">
-            <span class="close"></span>
-            <form action="/">
-              <div><img src="Dossier-photo.html/Plat 6.jpg" class="zonePhoto" id="photoPlat"></div>
-              <br>
-              <br>
-              <div id="yes"><h2 class="zonePhoto">aknfzjfnzjlfnzljfdnjlfnjf zjkfzjkfnz</h2>
-              
-  
-              <span class="zonePhoto">descrption 2</span></div>
-             
-              
-            </form>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Curry larvaires</h2>
+            <span class="zonePhoto">Curry de larves épicées aux saveurs audacieuses</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
           </div>
-        </div>
+        </form>
       </div>
+    </div>
+  </div>
 
 
-      <div id="modalTwo7" class="modal">
-        <div class="modal-content">
-          <div class="contact-form">
-            <span class="close"></span>
-            <form action="/">
-              <div><img src="Dossier-photo.html/Plat 7.jpg" class="zonePhoto" id="photoPlat"></div>
-              <br>
-              <br>
-              <div id="yes"><h2 class="zonePhoto">aknfzjfnzjlfnzljfdnjlfnjf zjkfzjkfnz</h2>
-              
-  
-              <span class="zonePhoto">descrption 2</span></div>
-             
-              
-            </form>
+  <div id="modalTwo3" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Plat 3.jpg" class="zonePhoto" id="photoPlat">
           </div>
-        </div>
-      </div>
-
-
-      <div id="modalTwo8" class="modal">
-        <div class="modal-content">
-          <div class="contact-form">
-            <span class="close"></span>
-            <form action="/">
-              <div><img src="Dossier-photo.html/Plat 8.jpg" class="zonePhoto" id="photoPlat"></div>
-              <br>
-              <br>
-              <div id="yes"><h2 class="zonePhoto">aknfzjfnzjlfnzljfdnjlfnjf zjkfzjkfnz</h2>
-              
-  
-              <span class="zonePhoto">descrption 2</span></div>
-             
-              
-            </form>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Poulpe Frit fleuris</h2>
+            <span class="zonePhoto">Poulpe frit aux fleurs et aux fruits : une danse de saveurs et de couleurs</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
           </div>
-        </div>
+        </form>
       </div>
+    </div>
+  </div>
 
-      <div id="modalTwo9" class="modal">
-        <div class="modal-content">
-          <div class="contact-form">
-            <span class="close"></span>
-            <form action="/">
-              <div><img src="Dossier-photo.html/Plat 9.jpg" class="zonePhoto" id="photoPlat"></div>
-              <br>
-              <br>
-              <div id="yes"><h2 class="zonePhoto">aknfzjfnzjlfnzljfdnjlfnjf zjkfzjkfnz</h2>
-              
-  
-              <span class="zonePhoto">descrption 2</span></div>
-             
-              
-            </form>
-          </div>
-        </div>
-      </div>
 
-      <div id="modalTwo10" class="modal">
-        <div class="modal-content">
-          <div class="contact-form">
-            <span class="close"></span>
-            <form action="/">
-              <div><img src="Dossier-photo.html/Plat 10.jpg" class="zonePhoto" id="photoPlat"></div>
-              <br>
-              <br>
-              <div id="yes"><h2 class="zonePhoto">aknfzjfnzjlfnzljfdnjlfnjf zjkfzjkfnz</h2>
-              
-  
-              <span class="zonePhoto">descrption 2</span></div>
-             
-              
-            </form>
+  <div id="modalTwo4" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Plat 4.jpg" class="zonePhoto" id="photoPlat">
           </div>
-        </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Création croustillante de maïs et délice d'insectes : L'Harmonie entomophage</h2>
+            <span class="zonePhoto">"Le plat est une création culinaire audacieuse qui marie habilement la douceur du maïs avec la richesse nutritionnelle des insectes comestibles. Cette expérience gastronomique exceptionnelle commence par une base de purée de maïs crémeuse, créée à partir de maïs doux, soigneusement mijoté pour libérer ses arômes naturels. Au sommet de cette purée de maïs veloutée, vous découvrirez une sélection exquise d'insectes comestibles, méticuleusement préparés pour une texture croustillante et un goût unique. Les grillons, riches en protéines, apportent une note légèrement noisetée, tandis que les criquets ajoutent une touche subtilement salée.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
       </div>
+    </div>
+  </div>
 
-      <div id="modalTwo11" class="modal">
-        <div class="modal-content">
-          <div class="contact-form">
-            <span class="close"></span>
-            <form action="/">
-              <div><img src="Dossier-photo.html/Plat 11.jpg" class="zonePhoto" id="photoPlat"></div>
-              <br>
-              <br>
-              <div id="yes"><h2 class="zonePhoto">aknfzjfnzjlfnzljfdnjlfnjf zjkfzjkfnz</h2>
-              
-  
-              <span class="zonePhoto">descrption 11</span></div>
-             
-              
-            </form>
-          </div>
-        </div>
-      </div>
 
-      <div id="modalTwo12" class="modal">
-        <div class="modal-content">
-          <div class="contact-form">
-            <span class="close"></span>
-            <form action="/">
-              <div><img src="Dossier-photo.html/Plat 12.jpg" class="zonePhoto" id="photoPlat"></div>
-              <br>
-              <br>
-              <div id="yes"><h2 class="zonePhoto">aknfzjfnzjlfnzljfdnjlfnjf zjkfzjkfnz</h2>
-              
-  
-              <span class="zonePhoto">descrption 2</span></div>
-             
-              
-            </form>
+  <div id="modalTwo5" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Plat 5.jpg" class="zonePhoto" id="photoPlat">
           </div>
-        </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Nouilles Croquantes aux Mille-Pattes : Épices de l'Exotisme</h2>
+            <span class="zonePhoto">"Les "Nouilles Croquantes aux Mille-Pattes : Épices de l'Exotisme" offrent une expérience culinaire véritablement unique, un mélange audacieux de textures et de saveurs qui éveillent les sens.
+
+              Au cœur de ce plat, des nouilles fraîches, préparées à la main avec soin, apportent une texture tendre et délicieuse. Elles sont associées à des mille-pattes parfaitement cuisinés, conférant à l'ensemble une sensation de croquant fascinant. Ces mille-pattes, une source insolite de protéines, sont préparés de manière à obtenir une texture croustillante et une saveur subtilement terreuse.
+              
+              Pour compléter cette création culinaire, un mélange d'épices exotiques est saupoudré sur le plat. Le mélange d'arômes comprend des notes épicées, légèrement sucrées et un soupçon d'acidité, créant une symphonie de saveurs qui réveille les papilles.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
       </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo6" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Plat 6.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Pâtes Printanières aux Légumes Croquants et Grillons Croustillants</h2>
+            <span class="zonePhoto">Ce plat gastronomique est une véritable fusion de saveurs et de textures, mariant habilement les pâtes, les légumes frais et les insectes pour une expérience culinaire inoubliable. Les pâtes, parfaitement al dente, sont délicatement enrobées d'une sauce veloutée, préparée avec une base de beurre clarifié et d'ail rôti, offrant une riche onctuosité avec une touche subtile de chaleur.
+
+              Les légumes, soigneusement sélectionnés en fonction de leur saisonnalité, apportent une palette de couleurs et de saveurs. Des asperges croquantes, des courgettes fondantes et des tomates cerises sucrées sont légèrement sautées à l'huile d'olive, préservant ainsi leur fraîcheur et leur vitalité.
+              
+              Ce qui rend ce plat vraiment unique, ce sont les insectes délicatement croustillants qui le surmontent. Des grillons, rôtis à la perfection, ajoutent une dimension intrigante et surprenante à chaque bouchée. Leur goût de noisette et leur texture croquante s'harmonisent de manière inattendue avec les autres composants du plat, créant une expérience sensorielle captivante.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo7" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Plat 7.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Polenta aux Saveurs Terre et Jardin, Agrémentée de Larves Grillées</h2>
+            <span class="zonePhoto">
+              "La 'Polenta aux Saveurs Terre et Jardin, Agrémentée de Larves Grillées' est une création culinaire qui repousse les limites de l'innovation gastronomique. Cette assiette débute avec une généreuse portion de polenta crémeuse, préparée avec une base de farine de maïs de haute qualité, cuite à la perfection pour obtenir une texture veloutée.
+              
+              Sur cette toile de polenta, une symphonie de légumes de saison est disposée artistiquement. Des courgettes croquantes, des carottes multicolores, des champignons sauvages et des tomates confites apportent une variété de couleurs, de saveurs et de textures. Ces légumes apportent une touche de fraîcheur et de vitalité à chaque bouchée.
+              
+              L'élément culinaire qui distingue ce plat est la présence audacieuse de larves grillées. Ces petites créatures, préparées avec expertise, ajoutent une dimension unique à l'ensemble. Leur goût subtil de noix et leur texture croustillante se marient étonnamment bien avec la polenta crémeuse et les légumes colorés. Les larves grillées sont non seulement une source de protéines riche et durable, mais elles créent également une expérience gustative inoubliable.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo8" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Plat 8.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Papillons croquants</h2>
+            <span class="zonePhoto">Plat ou dessert pourquoi choisir ? ici les deux sont réunis dans l'harmonie totale</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo9" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Plat 9.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Ailes de Chauve-Souris Croustillantes à l'exotisme Asiatique</h2>
+            <span class="zonePhoto">Plongez dans un monde culinaire exotique avec notre création audacieuse : les 'Ailes de Chauve-Souris Croustillantes à l'Exotisme Asiatique'. Cette expérience gastronomique unique marie les influences de l'Orient pour vous offrir un mets tout à fait imaginatif. Imaginez des ailes de chauve-souris parfaitement croustillantes, préparées avec une maîtrise inégalée. La première bouchée vous transporte dans un voyage de saveurs inattendues.
+
+              L'extérieur doré et croustillant contraste magnifiquement avec la tendreté de la viande, tandis que la palette de saveurs est un véritable tourbillon pour les papilles.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo10" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Plat 10.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Pangolin Magique : L'Étonnante Illusion Culinaire</h2>
+            <span class="zonePhoto">Le 'Pangolin Magique : L'Étonnante Illusion Culinaire' est une création gastronomique qui va au-delà des limites de l'imagination. Ce plat est une véritable œuvre d'art culinaire, une illusion visuelle et gustative qui émerveille les sens.
+
+              Au premier abord, on est immédiatement captivé par l'apparence étonnante de ce pangolin fictif. Son extérieur croustillant, rappelant la texture des écailles, est un véritable chef-d'œuvre du trompe-l'œil. Mais c'est lorsque l'on plonge la fourchette dans cette création que l'illusion se dévoile. À l'intérieur, une surprise attend : une délicieuse farce à base de viande tendre, soigneusement préparée pour une explosion de saveurs.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo11" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Plat 11.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Crème de Légumes aux Notes d'Insectes Croustillants</h2>
+            <span class="zonePhoto">La 'Crème de Légumes aux Notes d'Insectes Croustillants' est une expérience gastronomique qui repousse les frontières de la créativité culinaire. Au premier regard, elle se présente comme une soupe veloutée, mettant en avant la fraîcheur des légumes de saison soigneusement sélectionnés. Les courgettes tendres, les carottes sucrées et les petits pois verts éclatants se marient en une symphonie de couleurs et de saveurs.
+
+              Cependant, ce plat réserve une surprise à chaque cuillerée. Une garniture inattendue d'insectes croustillants, préparés avec une précision artisanale.
+             <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo12" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Plat 12.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Calamars Croustillants aux Tentacules d'Or, Parure Florale et Éclats de Fruit</h2>
+            <span class="zonePhoto">Les 'Calamars Croustillants aux Tentacules d'Or, Parure Florale et Éclats de Fruit' incarnent l'essence de l'art culinaire. Cette création est une symphonie de saveurs et de textures, qui vous invite à un voyage gustatif inoubliable.
+
+              Les tentacules de calamar, d'une tendreté exquise, sont enrobés d'une légère panure croustillante qui contraste magnifiquement avec la douceur de la chair.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo13" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Dessert1.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+
+            <h2 class="espace" class="zonePhoto">Cookiesect</h2>
+            <span class="zonePhoto">
+              Bienvenue au restaurant gastronomique "Le Festin Entomologique" où nous vous invitons à découvrir notre délicieuse création, le "Cookie aux Insectes."
+              
+              Notre chef talentueux a repoussé les limites de la créativité culinaire en combinant l'art de la pâtisserie avec l'audace de l'entomophagie. Le cookie aux insectes est une véritable œuvre d'art pour les sens, tant visuellement que gustativement.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo14" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Dessert2.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Tiramisu croquant</h2>
+            <span class="zonePhoto">Ce dessert extraordinaire allie la tradition italienne du tiramisu à l'audace de l'entomophagie, créant une symphonie de saveurs et de textures qui émerveillera vos sens.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo15" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Dessert3.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Gâteau Coco</h2>
+            <span class="zonePhoto">Cette création dessert révolutionnaire marie l'exotisme des saveurs tropicales à l'innovation culinaire de l'entomophagie, vous offrant une expérience gastronomique hors du commun.
+
+              Votre dessert est présenté dans une assiette artistiquement conçue, ornée de motifs délicats inspirés de la nature, évoquant la forêt tropicale. Au centre de cette œuvre d'art culinaire se trouve le Gâteux Coco aux Insectes, une véritable merveille.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo16" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Dessert4.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Gâteau grillons</h2>
+            <span class="zonePhoto">Ce dessert extraordinaire est une œuvre d'art culinaire qui repousse les limites de la créativité, mariant subtilement la tradition pâtissière à l'audace de l'entomophagie pour créer une expérience gustative inoubliable.
+
+              Votre dessert est présenté sur une assiette en porcelaine, minutieusement décorée de motifs élégants et inspirés de la nature, évoquant la symbiose entre l'homme et la faune. Au centre de cette création se trouve le Gâteux aux Grillons, un chef-d'œuvre de textures et de saveurs.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo17" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Dessert5.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Gâteau aux fruits croquant</h2>
+            <span class="zonePhoto">Le Gâteux aux Grillons et Fruits est une création audacieuse qui marie la tradition pâtissière à l'entomophagie, créant un équilibre parfait entre les saveurs sucrées et les notes terrestres des grillons.
+
+              Le gâteau de base est une génoise légère et moelleuse, imprégnée d'un sirop aux fruits exotiques qui évoque des notes sucrées et acidulées. Une mousse au chocolat noir veloutée recouvre la génoise, ajoutant une profondeur riche et des arômes intenses.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo18" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Dessert6.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Carre aux insectes</h2>
+            <span class="zonePhoto">Ce dessert unique est une véritable œuvre d'art culinaire qui allie la tradition pâtissière au monde fascinant de l'entomophagie, créant une expérience gustative mémorable.
+
+              Le Gâteux Carré aux Insectes est présenté sur une assiette en porcelaine d'une élégance exceptionnelle, décorée de motifs raffinés inspirés de la nature. Au cœur de cette présentation artistique, le dessert vous attend, prêt à vous émerveiller.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo19" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Dessert7.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Insecte prince</h2>
+            <span class="zonePhoto">Le souvenir de votre enfance de délicieux gâteau prince préparez par nos soins avec notre touche atypique pour votre plus grand plaisir</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo20" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Dessert8.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Gâteau surprise</h2>
+            <span class="zonePhoto">Un délicieux gâteau qui renferme les surprises de nos amis à carapace et ailes si croustillantes</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo21" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Dessert9.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Boîte mystère</h2>
+            <span class="zonePhoto">Une boîte surprise contenant dès nos merveilleuses créatures bonnes a mangé sur le pouce pour finir votre repas sur une note croquante</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo22" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Dessert10.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Marbre croquant</h2>
+            <span class="zonePhoto">Un alliage subtil entre le fondant du marbre et le croquant des insectes </span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo23" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Dessert11.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Gâteau double choco et insectes</h2>
+            <h2 class="espace" class="zonePhoto">Gateau double choco et insectes</h2>
+            <span class="zonePhoto">La base de ce dessert est un carré de génoise légère et moelleuse, imprégnée d'un sirop subtil au café qui éveille les papilles. Le gâteau est ensuite habillé de deux ganaches au chocolat : une noire et une blanche. La ganache au chocolat noir offre une profondeur riche, tandis que la ganache au chocolat blanc apporte une douceur onctueuse.
+
+              L'élément exceptionnel de cette création réside dans les délicats ingrédients entomologiques.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo24" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Dessert12.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Gâteau biscuitsect</h2>
+            <span class="zonePhoto">Cette création dessert repousse les limites de la tradition pâtissière en intégrant subtilement l'entomophagie pour une expérience gustative unique et mémorable.</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo25" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Boisson1.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">POISON FROG</h2>
+            <span class="zonePhoto">Pour votre belle mere ou votre pire ennemie cette boisson vous est conseillée</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo26" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Boisson2.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Jus larvaires</h2>
+            <span class="zonePhoto">tout et dans les titres vous allez vraiment boire ça ?</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo27" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Boisson3.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Tarentula drink</h2>
+            <span class="zonePhoto">tout et dans les titres vous allez vraiment boire ça ?</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo28" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Boisson4.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Carapace drink</h2>
+            <span class="zonePhoto">Pour dépasser votre peur des petites bêtes</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo29" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Boisson5.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Dragonfly drink</h2>
+            <span class="zonePhoto">de la bonne carapace broyait à la vôtre</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo30" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Boisson6.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Bière a la huitre</h2>
+            <span class="zonePhoto">Franchement vous êtes encore sur le site?</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo31" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Boisson7.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">MEDICAMENT</h2>
+            <span class="zonePhoto">Disponible également en pharmacie</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modalTwo32" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Boisson8.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Horse drink</h2>
+            <span class="zonePhoto">boisson chevaline </span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo33" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Boisson9.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Booster drink</h2>
+            <span class="zonePhoto">vraiment une énergie drink aux insectes</span>
+            <span class="zonePhoto">Vraiment une énergie drink aux insectes </span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo34" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Boisson10.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">Honnêtement je ne sais plus quoi faire pour vous...</h2>
+            <span class="zonePhoto">Jus de suicide je suppose ? </span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 15€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo35" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Boisson11.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">EAU OUI DE L'EAU</h2>
+            <span class="zonePhoto">BUVEZ CA A CE PRIX LA CADEAU</span>
+            <div class="boutons-achat">
+              <img src="Logo/logo moins.png">
+              <p class="prix"> 2000€</p>
+              <img src="Logo/Logo plus.png">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modalTwo36" class="modal">
+    <div class="modal-content">
+      <div class="contact-form">
+        <span class="close"></span>
+        <form action="/" class="fenetre">
+          <div class="partie-gauche">
+            <img src="Dossier-photo.html/Boisson12.jpg" class="zonePhoto" id="photoPlat">
+          </div>
+          <div class="partie-droite">
+            <h2 class="espace" class="zonePhoto">MOOOOOOOOOOOOONSTER </h2>
+            <span class="zonePhoto">POUR VOS GAME DE DARK SOULS 2 ET VOTRE TWITTER FAVORIS</span>
+            <div class="boutons-achat">
+             <button><img src="Logo/logo moins.png"></button>
+              <p class="prix"> 5000€</p>
+              <button><img src="Logo/Logo plus.png"></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- fin popup  -->
+
 
 
           <script src="testpopup.js"></script>
