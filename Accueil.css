@@ -19,7 +19,9 @@ body {
 
 a {
     text-decoration: none;
-    color: none
+    color: none;
+    
+
 }
 
 a,
@@ -451,6 +453,7 @@ h3 {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+
 }
 
 #logo1 img {
