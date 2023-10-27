@@ -21,9 +21,10 @@
     color: #000000;
   }
   span {
-    color: #666;
-    
+    color: #000000;
+    font-weight: 700;
     padding: 0 0 5px;
+    font-size: x-large;
   }
   .fenetre{
   padding: 25px;
@@ -123,6 +124,7 @@ yes{
   margin-bottom: 50px;
   margin-left: 50px;
   font-weight: bolder;
+  font-size: 35px;
   
 }
 

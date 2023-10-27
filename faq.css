@@ -345,14 +345,15 @@ p{
     text-align: center;
 }
 .reponse{
-    font-weight: 100;
+    font-weight: 700;
     width: 80%;
 }
 .question{
     background-color: #468b979c;
     width: 50%;
     padding: 2%;
-    
+    font-weight: 700;
+    font-size: x-large;
 }
 #faq{
     display: flex;
