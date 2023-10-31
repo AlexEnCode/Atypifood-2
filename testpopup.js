@@ -17,3 +17,14 @@ window.onclick = function (event) {
     event.target.style.display = "none";
   }
 };
+
+
+
+<!-- a surprimer -->
+<form action="Accueil.html" method="get">
+  <section id="entete">
+    <button> <img src="Logo/logo poulpe.png" alt="ATYPIFOOD" id="logofondblanc"></button>
+  </section>
+  <br>
+  <section id="boutonentete">
+<!-- a surprimer -->
