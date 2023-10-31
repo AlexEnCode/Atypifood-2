@@ -11,16 +11,6 @@
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  <!-- a surprimer -->
-  <form action="Accueil.html" method="get">
-    <section id="entete">
-      <button> <img src="Logo/logo poulpe.png" alt="ATYPIFOOD" id="logofondblanc"></button>
-    </section>
-    <br>
-    <section id="boutonentete">
-  <!-- a surprimer -->
-
-  
   .modal-content {
     margin: 50px auto;
     width: 60%;
