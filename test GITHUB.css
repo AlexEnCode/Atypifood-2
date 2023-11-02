@@ -1,39 +1,4 @@
-head {
-    color: #F3EDEB;
-}
-body{
-    font-family: 'Roboto';
-}
-a {
-    text-decoration: none;
-    color: none
-}
 
-
-a,
-button {
-    cursor: pointer;
-    cursor: url(curseur.png), pointer; 
-     background: none;
-    border: none;
-}
-
-#entete {
-    display: flex;
-    justify-content: space-evenly;
- 
-}
-#boutonentete {
-    display: flex;
-    justify-content: space-around;
-    bottom: 100%;
-    
-}
-
-#logofondblanc {
-    width: 900px;
-    text-align: center;
-}
 
 #profil {
 position: flex;
@@ -131,6 +96,199 @@ nav a:hover {
     width: 100%;
     z-index: 1000;
 
+    #profil {
+        position: flex;
+            width: 68px;
+            margin-top: 0px;
+            margin-bottom: 4px;
+        }
+        
+        
+        #panier {
+            position: flex;
+            width: 60px;
+            margin-top: 0px;
+        
+        }
+        
+        #recherche {
+            display: flex;
+            justify-content: center;
+            margin-top:10px;
+        }
+        
+        #recherche2 {
+            display: block;
+            background-color:#F3EDEB;
+            border: #946039 solid 4px;
+            border-radius: 10px 0px 0px 10px;
+            width: 494px;
+            height: 40px;
+        }
+        
+        #boutonrecherche {
+            display: flex;
+            position: static;
+            float: none;
+            background: none;
+            border: none;
+            padding-top: 5px;
+            background-color: #946039;
+            border: #946039 solid 4px;
+            border-radius: 0px 10px 10px 0px;
+            height: 48px;
+        }
+        
+        
+        nav {
+            width: 100%;
+            margin: 0px;
+            background-color: #F3EDEB;
+            position: sticky;
+            top: 0px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding-left: 0px;
+        }
+        
+        li {
+            list-style-type: none;
+        }
+        
+        nav ul li {
+            float: left;
+            width: 20%;
+            text-align: center;
+            position: relative;
+            background-color: #025464;
+        }
+        
+        
+        
+        nav ul::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        nav a {
+            display: block;
+            text-decoration: none;
+            color: #F3EDEB;
+            border-bottom: 2px solid transparent;
+            padding: 10px 0px;
+        }
+        
+        nav a:hover {
+            color: #468b97;
+            border-bottom: 2px solid #025464;
+        }
+        
+        .sous {
+            display: none;
+            position: absolute;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        
+#profil {
+    position: flex;
+        width: 68px;
+        margin-top: 0px;
+        margin-bottom: 4px;
+    }
+    
+    
+    #panier {
+        position: flex;
+        width: 60px;
+        margin-top: 0px;
+    
+    }
+    
+    #recherche {
+        display: flex;
+        justify-content: center;
+        margin-top:10px;
+    }
+    
+    #recherche2 {
+        display: block;
+        background-color:#F3EDEB;
+        border: #946039 solid 4px;
+        border-radius: 10px 0px 0px 10px;
+        width: 494px;
+        height: 40px;
+    }
+    
+    #boutonrecherche {
+        display: flex;
+        position: static;
+        float: none;
+        background: none;
+        border: none;
+        padding-top: 5px;
+        background-color: #946039;
+        border: #946039 solid 4px;
+        border-radius: 0px 10px 10px 0px;
+        height: 48px;
+    }
+    
+    
+    nav {
+        width: 100%;
+        margin: 0px;
+        background-color: #F3EDEB;
+        position: sticky;
+        top: 0px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    nav ul li {
+        float: left;
+        width: 20%;
+        text-align: center;
+        position: relative;
+        background-color: #025464;
+    }
+    
+    
+    
+    nav ul::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    nav a {
+        display: block;
+        text-decoration: none;
+        color: #F3EDEB;
+        border-bottom: 2px solid transparent;
+        padding: 10px 0px;
+    }
+    
+    nav a:hover {
+        color: #468b97;
+        border-bottom: 2px solid #025464;
+    }
+    
+    .sous {
+        display: none;
+        position: absolute;
+        width: 100%;
+        z-index: 1000;
 }
 
 nav>ul li:hover .sous {
