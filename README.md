@@ -1,4 +1,4 @@
-  <a>    <img alt="Atypifood" src="logo/logo poulpe.png" />   </a>   
+  <a>    <img alt="Atypifood" src="logo/logo-poulpe.png" />   </a>   
 
 
 Atypifood is a website project made by:
