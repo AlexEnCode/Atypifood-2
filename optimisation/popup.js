@@ -12,10 +12,5 @@ closeBtns.forEach(function (btn) {
     modal.style.display = "none";
   };
 });
-window.onclick = function (event) {
-  if (event.target.className === "modal") {
-    event.target.style.display = "none";
-  }
-};
 
 
