@@ -1,0 +1,341 @@
+head {
+    color: #F3EDEB;
+}
+body{
+    font-family: 'Roboto';
+}
+a {
+    text-decoration: none;
+    color: none
+}
+
+
+a,
+button {
+    cursor: pointer;
+    cursor: url(curseur.png), pointer; 
+     background: none;
+    border: none;
+}
+
+#entete {
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+#boutonentete {
+    display: flex;
+    justify-content: space-around;
+    bottom: 100%;
+    
+}
+
+#logofondblanc {
+    width: 900px;
+    text-align: center;
+}
+
+#profil {
+position: flex;
+    width: 68px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+
+#panier {
+    position: flex;
+    width: 60px;
+    margin-top: 0px;
+
+}
+
+#recherche {
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}
+
+#recherche2 {
+    display: block;
+    background-color:#F3EDEB;
+    border: #946039 solid 4px;
+    border-radius: 10px 0px 0px 10px;
+    width: 494px;
+    height: 40px;
+}
+
+#boutonrecherche {
+    display: flex;
+    position: static;
+    float: none;
+    background: none;
+    border: none;
+    padding-top: 5px;
+    background-color: #946039;
+    border: #946039 solid 4px;
+    border-radius: 0px 10px 10px 0px;
+    height: 48px;
+}
+
+
+nav {
+    width: 100%;
+    margin: 0px;
+    background-color: #F3EDEB;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    background-color: #025464;
+}
+
+
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #F3EDEB;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover {
+    color: #468b97;
+    border-bottom: 2px solid #025464;
+}
+
+.sous {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+nav>ul li:hover .sous {
+    display: block;
+}
+
+.sous li {
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous a:hover {
+    border-bottom: 5;
+    background-color: #025464;
+}
+
+.deroulant>a::after {
+    font-size: 12px;
+
+}
+
+.conteneur {
+    margin: 50px 20px;
+    height: 1500px;
+}
+
+
+
+h1,
+h3 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+#pied1 {
+    background-color: #468B97;
+}
+
+#questionpied1 {
+    color: #F3EDEB;
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#avisetoile {
+    width: 50px;
+    height: 50px;
+}
+
+#avisetoile:hover {
+    background-image: url(etoile2.png);
+}
+
+#avis {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#avis span {
+    border: solid #025464 8px;
+    background-color: #F3EDEB;
+    width: 280px;
+    height: 230px;
+    margin-top: 20px;
+    margin-bottom: 20x;
+    border-radius: 22%;
+}
+
+footer {
+background: none;
+display: block;
+}
+
+#pied2 {
+    background-color: #025464;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #F3EDEB;
+    font-size: x-large;
+    font-size: large;
+    list-style-type: none;
+}
+
+#boutonnewsletter {
+    display: flex;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#newsletter span {
+    border: solid #F3EDEB 8px;
+    background-color: #F3EDEB;
+    width: 900px;
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 17px;
+}
+
+#abonnez {
+    display: inline-block;
+    border: #F3EDEB;
+    background-color: #F3EDEB;
+}
+
+#abonnez span:hover {
+    background-color: #025464;
+    color: #F3EDEB
+}
+
+#boutonnewsletter span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #025464 8px;
+    background-color: #F3EDEB;
+    width: 750px;
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    border-radius: 17px;
+    color: #025464;
+    font-size: 35px;
+}
+
+#enveloppe {
+    margin-top: 7px;
+    margin-left: 15px;
+    margin-right: -5px;
+    width: 80px;
+    height: 70px;
+}
+
+h4 {
+    text-align: center;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+}
+
+#reseauxsociaux {
+
+    border: solid #F3EDEB;
+    color: #025464;
+    width: 270px;
+    height: 64px;
+    border-radius: 10px;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#facebook {
+    display: flex;
+    bottom: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+#reseauxsociaux :hover {
+    background-color: #F3EDEB;
+    border-radius: 12%;
+}
+
+#pied3 {
+    display: flex;
+    justify-content: space-evenly
+}
+
+#Marianne {
+    width: 400px;
+    display: flex;
+}
+#boutonfaq{
+    color:#FFF;
+}
+#boutonfaq{
+    color:#FFF;
+}
